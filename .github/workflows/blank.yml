@@ -38,13 +38,12 @@ jobs:
              Invoke-WebRequest -Uri $d -WebSession $googleDriveSession -Method Post -OutFile $filepath
              $log = "install.log" 
              $procMain = Start-Process "msiexec" "/i `"$filepath`" /qn /l*! `"$log`"" -NoNewWindow -PassThru
-             $procLog = Start-Process "powershell" "Get-Content -Path `"$log`" -Wait" -NoNewWindow -PassThru 
              $procMain.WaitForExit() 
-             $procLog.Kill()
       - name: Run Test List
         shell: pwsh
         run: |
-            "C:\Program Files (x86)\Progress\Test Studio\Bin\ArtOfTest.Runner.exe" list="${{ github.workspace }}\TestStudioProject1\TestLists\TestList1.aiilist" result="TestStudio" junit
+            Start-Process -FilePath "C:\Program Files (x86)\Progress\Test Studio\Bin\ArtOfTest.Runner.exe" -NoNewWindow -ArgumentList "list=${{ github.workspace }}\TestStudioProject1\TestLists\TestList1.aiilist", "result=teststudio", "junit"
+      
              
             
           
