@@ -30,7 +30,11 @@ jobs:
         shell: pwsh
         run: |
              $filepath = $env:GITHUB_PATH + "\TestStudio_Runtime.msi"
+             $temppath = $env:GITHUB_PATH + "\temp.text"
              echo $filepath
-             $response = Invoke-WebRequest -Uri "https://drive.google.com/uc?export=download&id=1QYdNQYTls9oqLB6QCR1f9DG_ZxTJstDn" -SessionVariable $googleDriveSession
-             echo $response
+             Invoke-WebRequest -Uri "https://drive.google.com/uc?export=download&id=1QYdNQYTls9oqLB6QCR1f9DG_ZxTJstDn"-OutFile $temppath -SessionVariable $googleDriveSession
+             $searchString = Select-String -Path $temppath -Pattern "confirm=" $searchString -match "confirm=(?<content>.*)&id=" $confirmCode = $matches['content']
+             Remove-Item $temppath
+             echo $searchString
+          
             
