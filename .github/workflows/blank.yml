@@ -29,8 +29,7 @@ jobs:
       - name: Get & Install Test Studio Runtime
         shell: pwsh
         run: |
-             $filepath = $env:GITHUB_PATH + "TestStudio_Runtime.msi"
-             Write-Host $filepath
+             $filepath = $env:GITHUB_PATH + "\TestStudio_Runtime.msi"
              $response = Invoke-WebRequest -Uri "https://drive.google.com/uc?export=download&id=1QYdNQYTls9oqLB6QCR1f9DG_ZxTJstDn" -SessionVariable $googleDriveSession
-             Write-host $response.Forms[0].Action
+             Write-host $response.Forms
             
