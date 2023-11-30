@@ -33,7 +33,7 @@ jobs:
              $r = Invoke-WebRequest -Uri "https://drive.google.com/uc?export=download&id=1QYdNQYTls9oqLB6QCR1f9DG_ZxTJstDn" -SessionVariable $googleDriveSession
              echo $r.Content
              $s = $r -match '^action=\"(.*?)\"'
-             Invoke-WebRequest -Uri $response.Forms[0].Action -WebSession $googleDriveSession -Method Post -Body $matches[1] -OutFile $filepath
+             Invoke-WebRequest -Uri $matches[1] -WebSession $googleDriveSession
              msiexec.exe /i $filepath /passive /le c:\errorlog.txt
           
             
