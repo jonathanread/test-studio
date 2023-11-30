@@ -30,6 +30,7 @@ jobs:
         shell: pwsh
         run: |
              $filepath = $env:GITHUB_PATH + "\TestStudio_Runtime.msi"
+             echo $filepath
              $response = Invoke-WebRequest -Uri "https://drive.google.com/uc?export=download&id=1QYdNQYTls9oqLB6QCR1f9DG_ZxTJstDn" -SessionVariable $googleDriveSession
-             Write-host $response.Forms
+             echo $response
             
