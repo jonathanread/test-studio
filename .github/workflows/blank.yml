@@ -44,11 +44,16 @@ jobs:
       - name: Run Test List
         shell: pwsh
         run: |
-            Start-Process -FilePath "C:\Program Files (x86)\Progress\Test Studio\Bin\ArtOfTest.Runner.exe" -NoNewWindow -ArgumentList "list=${{ github.workspace }}\TestStudioProject1\TestLists\TestList1.aiilist", "result=teststudio", "junit"
+            echo Start-Process -FilePath "C:\Program Files (x86)\Progress\Test Studio\Bin\ArtOfTest.Runner.exe" -NoNewWindow -ArgumentList "list=${{ github.workspace }}\TestStudioProject1\TestLists\TestList1.aiilist", "result=teststudio", "junit"
+      - name: check directories
+        shell: pwsh
+        run: |
+          cd "${{ github.workspace }}\TestStudioProject1\"
+          echo ls
       - name: Publish Test Results
         uses: test-summary/action@v2
         with:
-         paths: '${{ github.workspace }}\TestStudioProject1\Reuslts\*.xml'
+         paths: '${{ github.workspace }}\TestStudioProject1\Reuslts\**.xml'
          output: "test/results/summary.md"
     
           
