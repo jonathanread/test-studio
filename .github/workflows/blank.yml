@@ -46,7 +46,9 @@ jobs:
         run: |
             Start-Process -FilePath "C:\Program Files (x86)\Progress\Test Studio\Bin\ArtOfTest.Runner.exe" -NoNewWindow -ArgumentList "list=${{ github.workspace }}\TestStudioProject1\TestLists\TestList1.aiilist", "result=teststudio", "junit"
       - name: Publish Test Results
-        uses: EnricoMi/publish-unit-test-result-action@v2.11.0
-        with: 
-         files: |
-          "${{ github.workspace }}\TestStudioProject1\Reuslts\*.xml"
+      - uses: test-summary/action@v2
+        with:
+         paths: '${{ github.workspace }}\TestStudioProject1\Reuslts\*.xml'
+         output: "test/results/summary.md"
+    
+          
