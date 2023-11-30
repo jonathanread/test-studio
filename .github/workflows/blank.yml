@@ -31,9 +31,8 @@ jobs:
         run: |
              $filepath = $env:GITHUB_PATH + "\TestStudio_Runtime.msi"
              $r = Invoke-WebRequest -Uri "https://drive.google.com/uc?export=download&id=1QYdNQYTls9oqLB6QCR1f9DG_ZxTJstDn" -SessionVariable $googleDriveSession
-             echo $r.Content
              $s = $r -match '^action=\"(.*?)\"'
-             Invoke-WebRequest -Uri $matches[1] -WebSession $googleDriveSession
-             msiexec.exe /i $filepath /passive /le c:\errorlog.txt
+             echo $s
+            
           
             
