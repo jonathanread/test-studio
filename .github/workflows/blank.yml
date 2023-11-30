@@ -33,8 +33,9 @@ jobs:
              $r = Invoke-WebRequest -Uri "https://drive.google.com/uc?export=download&id=1QYdNQYTls9oqLB6QCR1f9DG_ZxTJstDn" -SessionVariable $googleDriveSession
              $s = $r.Content -match 'action=\"(.*?)\"'
              Add-Type -AssemblyName System.Web
-             echo [System.Web.HttpUtility]::HtmlDecode($matches[1])
-             Invoke-WebRequest -Uri [System.Web.HttpUtility]::HtmlDecode($matches[1]) -WebSession $googleDriveSession -Method Post -OutFile $filepath
+             $d = [System.Web.HttpUtility]::HtmlDecode($matches[1])
+             echo $d
+             Invoke-WebRequest -Uri $d -WebSession $googleDriveSession -Method Post -OutFile $filepath
              msiexec.exe /i $filepath /passive /le c:\errorlog.txt
              
             
