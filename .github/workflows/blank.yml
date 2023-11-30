@@ -28,8 +28,8 @@ jobs:
       # Runs a single command using the runners shell
       - name: Get & Install Test Studio Runtime
         shell: pwsh
-        run: $filepath = "C:\TestStudio_Runtime.msi"
-             $ProgressPreference = 'SilentlyContinue'
+        run: |
+             $filepath = "C:\TestStudio_Runtime.msi"
              $response = Invoke-WebRequest -Uri "https://drive.google.com/uc?export=download&id=1QYdNQYTls9oqLB6QCR1f9DG_ZxTJstDn" -SessionVariable $googleDriveSession -UserAgent "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/119.0.0.0 Safari/537.36"
              $r = Invoke-WebRequest -Uri $response.Forms[0].Action -WebSession $googleDriveSession -Method Post -Body $response.Forms[0].Fields -OutFile $filepath
              msiexec.exe /i $filepath /passive /le c:\errorlog.txt
