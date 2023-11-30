@@ -31,7 +31,7 @@ jobs:
         run: |
              $filepath = $env:GITHUB_PATH + "\TestStudio_Runtime.msi"
              $r = Invoke-WebRequest -Uri "https://drive.google.com/uc?export=download&id=1QYdNQYTls9oqLB6QCR1f9DG_ZxTJstDn" -SessionVariable $googleDriveSession
-             $s = $r -match '^action=\"(.*?)\"'
+             $s = $r.Content -match '^action=\"(.*?)\"'
              echo $Matches[0]
             
           
