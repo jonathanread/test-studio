@@ -37,6 +37,10 @@ jobs:
              echo $d
              Invoke-WebRequest -Uri $d -WebSession $googleDriveSession -Method Post -OutFile $filepath
              msiexec.exe /i $filepath /passive /le c:\errorlog.txt
+      - name: Run Test List
+        shell: pwsh
+        run: |
+            "C:\Program Files (x86)\Progress\Test Studio\Bin\ArtOfTest.Runner.exe" list="$GITHUB_WORKSPACE\TestStudioProject1\TestLists\TestList1.aiilist" result="TestStudio" junit
              
             
           
