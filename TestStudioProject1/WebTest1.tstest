@@ -76,15 +76,13 @@
         {
           "__type": "ArtOfTest.WebAii.Design.ProjectModel.AutomationStep",
           "__value": {
-            "Runtime ID": "365d080e-cf2e-427c-b845-a1201a51df98",
-            "Description": "Verify 'TextContent' 'Contains' 'This is EGGcellent!!' on 'ThisIsH1Tag'",
+            "Runtime ID": "8a8c5290-7fbd-4d00-8aac-ef008626cd2e",
+            "Description": "Verify element 'Div' 'is' visible.",
             "CustomDescription": null,
             "Step": {
-              "__type": "ArtOfTest.WebAii.Design.IntrinsicTranslators.Descriptors.ContentVerificationDescriptor",
+              "__type": "ArtOfTest.WebAii.Design.IntrinsicTranslators.Descriptors.VisibleVerificationDescriptor",
               "__value": {
-                "CompareType": 2,
-                "SegmentType": 3,
-                "ExpectedString": "This is EGGcellent!!",
+                "IsVisible": true,
                 "DataBindVariableName": null,
                 "Timeout": 30000,
                 "CheckInterval": 500,
@@ -102,10 +100,10 @@
                   }
                 },
                 "Elements": {
-                  "textTarget": {
+                  "verifyTarget": {
                     "__type": "ArtOfTest.Common.Design.Extensibility.Descriptors.ElementDescriptor",
                     "__value": {
-                      "Name": "textTarget",
+                      "Name": "verifyTarget",
                       "Region": null,
                       "Page": {
                         "__type": "ArtOfTest.WebAii.Design.ProjectModel.PageUri",
@@ -115,20 +113,20 @@
                           "BaseUrl": "",
                           "EquivalentUrls": [],
                           "Fragment": "",
-                          "Title": "Home",
+                          "Title": "Sitefinity trial version",
                           "CompareMode": 1,
                           "AlwaysUseTitleInCompare": false,
-                          "FriendlyName": "Home"
+                          "FriendlyName": "SitefinityTrialVersion"
                         }
                       },
                       "Frame": null,
                       "FindExpression": {
                         "__type": "ArtOfTest.WebAii.Design.ProjectModel.HtmlFindExpressionElement",
                         "__value": {
-                          "uniqueKey": "dyIDN35dECIDbFkpQOAOKNb1/Q0=",
+                          "uniqueKey": "7i0CtMl8YJuQRmav3zk259B+CvciscidIY1fuVUzclw=",
                           "NodeKind": 4,
                           "TechnologyType": 1,
-                          "Name": "ThisIsH1Tag",
+                          "Name": "Div",
                           "FindExpressions": [
                             {
                               "Key": 1,
@@ -139,13 +137,7 @@
                                     {
                                       "__type": "ArtOfTest.WebAii.Core.HtmlFindClause",
                                       "__value": {
-                                        "Clause": "TextContent=^This is EGGcell"
-                                      }
-                                    },
-                                    {
-                                      "__type": "ArtOfTest.WebAii.Core.HtmlFindClause",
-                                      "__value": {
-                                        "Clause": "tagname=h1"
+                                        "Clause": "TagIndex=div:1"
                                       }
                                     }
                                   ],
@@ -155,14 +147,14 @@
                               }
                             }
                           ],
-                          "BackupSearchClause": "/html[1]/body[1]/main[1]/section[1]/div[1]/div[1]/div[2]/div[1]/a[1]/div[1]/div[1]/h1[1]",
+                          "BackupSearchClause": "/html[1]/body[1]/header[1]/section[1]/div[1]/section[1]/div[1]",
                           "ImageSearchClauses": [
                             {
                               "__type": "ArtOfTest.Common.ImageSearchClause",
                               "__value": {
-                                "Resolution": "1536, 864",
+                                "Resolution": "1920, 1080",
                                 "BroweserType": 10,
-                                "Image": "86A405779230A6C577E4088D6090A03E7E176B6F6B0872A29801A64033C44D3F",
+                                "Image": "FAF2740196FC0905187F42DF7B38CD7B8427B2FCB880AB01C6C6B1F3F5A6FFE9",
                                 "Index": 0,
                                 "MatchThreshold": 90,
                                 "OsVersion": "10.0.19044.0",
@@ -174,7 +166,7 @@
                           "DataBindingExpressions": {}
                         }
                       },
-                      "HtmlControlType": "ArtOfTest.WebAii.Controls.HtmlControls.HtmlControl",
+                      "HtmlControlType": "ArtOfTest.WebAii.Controls.HtmlControls.HtmlDiv",
                       "IsIndependent": false,
                       "DomStateKey": "",
                       "TechnologyType": 1,
@@ -193,7 +185,7 @@
             "Id": "",
             "StepState": 0,
             "ContinueOnFailure": false,
-            "StepImageKey": "WebTest13ppwvwqc.0oi",
+            "StepImageKey": "WebTest1morxmqov.tpl",
             "QcId": 0,
             "QcVersionStamp": 0,
             "Version": 200
@@ -216,7 +208,7 @@
     "UseDefaultDesktopAppPath": false,
     "TestAssembly": "TestStudioProject1.dll",
     "TestAssemblyPath": "bin",
-    "TestClass": null,
+    "TestClass": "",
     "IsManual": false,
     "ResourceFilePath": "WebTest1.resx",
     "ElementImageStoreFilePath": "WebTest1.imgstore",
