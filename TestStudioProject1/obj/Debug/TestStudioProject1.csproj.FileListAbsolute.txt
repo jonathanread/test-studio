@@ -1,0 +1,9 @@
+C:\Work\CorianderLaneV3\CorianderLane_SitefinityWebApp\TestStudioProject1\bin\Debug\TestStudioProject1.dll
+C:\Work\CorianderLaneV3\CorianderLane_SitefinityWebApp\TestStudioProject1\bin\Debug\TestStudioProject1.pdb
+C:\Work\CorianderLaneV3\CorianderLane_SitefinityWebApp\TestStudioProject1\bin\Debug\Microsoft.VisualStudio.QualityTools.UnitTestFramework.dll
+C:\Work\CorianderLaneV3\CorianderLane_SitefinityWebApp\TestStudioProject1\bin\Debug\Newtonsoft.Json.dll
+C:\Work\CorianderLaneV3\CorianderLane_SitefinityWebApp\TestStudioProject1\obj\Debug\TestStudioProject1.csproj.AssemblyReference.cache
+C:\Work\CorianderLaneV3\CorianderLane_SitefinityWebApp\TestStudioProject1\obj\Debug\TestStudioProject1.csproj.CoreCompileInputs.cache
+C:\Work\CorianderLaneV3\CorianderLane_SitefinityWebApp\TestStudioProject1\obj\Debug\TestStudioProject1.csproj.CopyComplete
+C:\Work\CorianderLaneV3\CorianderLane_SitefinityWebApp\TestStudioProject1\obj\Debug\TestStudioProject1.dll
+C:\Work\CorianderLaneV3\CorianderLane_SitefinityWebApp\TestStudioProject1\obj\Debug\TestStudioProject1.pdb
