@@ -40,7 +40,7 @@ jobs:
       - name: Run Test List
         shell: pwsh
         run: |
-            "C:\Program Files (x86)\Progress\Test Studio\Bin\ArtOfTest.Runner.exe" list="${GITHUB_WORKSPACE}\TestStudioProject1\TestLists\TestList1.aiilist" result="TestStudio" junit
+            "C:\Program Files (x86)\Progress\Test Studio\Bin\ArtOfTest.Runner.exe" list="${{ github.workspace }}}\TestStudioProject1\TestLists\TestList1.aiilist" result="TestStudio" junit
              
             
           
