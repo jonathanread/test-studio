@@ -36,7 +36,11 @@ jobs:
              $d = [System.Web.HttpUtility]::HtmlDecode($matches[1])
              echo $d
              Invoke-WebRequest -Uri $d -WebSession $googleDriveSession -Method Post -OutFile $filepath
-             msiexec.exe /i $filepath /passive /le c:\errorlog.txt
+             $log = "install.log" 
+             $procMain = Start-Process "msiexec" "/i `"$filepath`" /qn /l*! `"$log`"" -NoNewWindow -PassThru
+             $procLog = Start-Process "powershell" "Get-Content -Path `"$log`" -Wait" -NoNewWindow -PassThru 
+             $procMain.WaitForExit() 
+             $procLog.Kill()
       - name: Run Test List
         shell: pwsh
         run: |
