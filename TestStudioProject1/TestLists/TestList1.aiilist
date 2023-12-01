@@ -98,6 +98,14 @@
           "Path": "WebTest1.tstest",
           "PathType": 0
         }
+      },
+      {
+        "__type": "ArtOfTest.WebAii.Design.Execution.TestInfo",
+        "__value": {
+          "Id": "8a5d8f2d-aaa8-4eda-87b0-d75a2407b6ac",
+          "Path": "FailingTest.tstest",
+          "PathType": 0
+        }
       }
     ],
     "Filter": {
