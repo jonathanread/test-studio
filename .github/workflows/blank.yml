@@ -38,11 +38,11 @@ jobs:
       - name: Install TEst Studio Runtime
         shell: cmd
         run: |
-            echo msiexec.exe /i .\TestStudio_Runtime.msi /passive /le .\errorlog.txt
+            msiexec.exe /i .\TestStudio_Runtime.msi /passive /le .\errorlog.txt
       - name: Run Test List
         shell: cmd
         run: |
-            echo "C:\Program Files (x86)\Progress\Test Studio\Bin\ArtOfTest.Runner.exe" list="${{ github.workspace }}\TestStudioProject1\TestLists\TestList1.aiilist" result="teststudio" junit
+            "C:\Program Files (x86)\Progress\Test Studio\Bin\ArtOfTest.Runner.exe" list="${{ github.workspace }}\TestStudioProject1\TestLists\TestList1.aiilist" result="teststudio" junit
       - name: check directories
         shell: pwsh
         run: |
