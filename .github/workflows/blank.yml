@@ -31,29 +31,26 @@ jobs:
         run: |
              $filepath = "TestStudio_Runtime.msi"
              $r = Invoke-WebRequest -Uri "https://drive.google.com/uc?export=download&id=1QYdNQYTls9oqLB6QCR1f9DG_ZxTJstDn" -SessionVariable $googleDriveSession
-             $s = $r.Content -match 'action=\"(.*?)\"'
+             $r.Content -match 'action=\"(.*?)\"'
              Add-Type -AssemblyName System.Web
              $d = [System.Web.HttpUtility]::HtmlDecode($matches[1])
-             echo $d
              Invoke-WebRequest -Uri $d -WebSession $googleDriveSession -Method Post -OutFile $filepath
-             $log = "install.log" 
-             $procMain = Start-Process "msiexec" "/i `"$filepath`" /qn /l*! `"$log`"" -NoNewWindow -PassThru
-             $procLog = Start-Process "powershell" "Get-Content -Path `"$log`" -Wait" -NoNewWindow -PassThru 
-             $procMain.WaitForExit() 
-             $procLog.Kill()
-      - name: Run Test List
-        shell: pwsh
+      - name: Install TEst Studio Runtime
+        shell: cmd
         run: |
-            echo Start-Process -FilePath "C:\Program Files (x86)\Progress\Test Studio\Bin\ArtOfTest.Runner.exe" -NoNewWindow -ArgumentList "list=${{ github.workspace }}\TestStudioProject1\TestLists\TestList1.aiilist", "result=teststudio", "junit"
+            echo msiexec.exe /i .\TestStudio_Runtime.msi /passive /le .\errorlog.txt
+      - name: Run Test List
+        shell: cmd
+        run: |
+            echo "C:\Program Files (x86)\Progress\Test Studio\Bin\ArtOfTest.Runner.exe" list="${{ github.workspace }}\TestStudioProject1\TestLists\TestList1.aiilist" result="teststudio" junit
       - name: check directories
         shell: pwsh
         run: |
           cd "${{ github.workspace }}\TestStudioProject1\"
           echo ls
       - name: Publish Test Results
-        uses: test-summary/action@v2
+        uses: EnricoMi/publish-unit-test-result-action/composite@v2
+        if: always()
         with:
-         paths: '${{ github.workspace }}\TestStudioProject1\Reuslts\**.xml'
-         output: "test/results/summary.md"
-    
-          
+          files: |
+            ${{ github.workspace }}/TestStudioProject1/Results/*.xml
