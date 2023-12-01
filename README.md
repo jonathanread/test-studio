@@ -11,5 +11,4 @@ This step installs the Test Studio run and has logging steps that can be turned 
 ### Run Test List
 We will use the Test Studio Runtime to execute a test list. [Documentation](https://docs.telerik.com/teststudio/features/test-runners/artoftest-runner)
 ### Publish Test Results
-We use a GitHub plugin to publish test results to the build summary using (EnricoMi)[https://github.com/EnricoMi/publish-unit-test-result-action#running-as-a-composite-action].
-
+We use a GitHub plugin to publish test results to the build summary using [EnricoMi](https://github.com/EnricoMi/publish-unit-test-result-action#running-as-a-composite-action).
