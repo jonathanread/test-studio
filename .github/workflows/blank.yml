@@ -46,11 +46,10 @@ jobs:
       - name: check directories
         shell: pwsh
         run: |
-          cd "${{ github.workspace }}\TestStudioProject1\"
-          echo ls
+          ls ${{ github.workspace }}
       - name: Publish Test Results
         uses: EnricoMi/publish-unit-test-result-action/composite@v2
         if: always()
         with:
           files: |
-            ${{ github.workspace }}/TestStudioProject1/Results/*.xml
+            ${{ github.workspace }}\TestStudioProject1\Results\*.xml
