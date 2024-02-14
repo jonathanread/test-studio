@@ -5,7 +5,7 @@ This project has a Test Studio project with 2 web tests, one that should succeed
 ## Steps in the workflow
 Test Studio requires a windows based runner.
 ### Get Test Studio Runtime
-We will need to host the Test Studio runtime somewhere accessible so we can get using the workflow and powershell. In this example the runtime is storef on Google Drive. The Test Studio runtime is available via the [Telerik.com Portal](https://docs.telerik.com/teststudio/prerequisites/installation/run-time-install). Once we have downloaded from Telerik Account we move it to Google Drive. 
+To run Test Studio tests or test lists we need the [runtime](https://docs.telerik.com/teststudio/test-studio-editions#test-studio-run-time-add-on) We have chosen to use the GitHub [release feature] (https://github.nih.gov/about/features/releases#:~:text=Releases%20allow%20users%20to%20download,are%20dependent%20on%20git%20tags%20) to store the msi and version it for use in our Actions. To get the release asset we are using [release-downloader](https://github.com/marketplace/actions/release-downloader) from the GitHub marketplace. When using the release we chose to make the msi file always name 'Telerik.TestStudio.msi' and use the tags feature to version instances of the runtime.
 ### Install Test Studio Runtime
 This step installs the Test Studio run and has logging steps that can be turned for debugging purposes.
 ### Run Test List
