@@ -26,22 +26,16 @@ jobs:
       # Checks-out your repository under $GITHUB_WORKSPACE, so your job can access it
       - uses: actions/checkout@v3
       # Runs a single command using the runners shell
-      - name: Get Test Studio Runtime
-        shell: pwsh
-        run: |
-             $r = Invoke-WebRequest -Uri "https://drive.google.com/uc?export=download&id=1QYdNQYTls9oqLB6QCR1f9DG_ZxTJstDn" -SessionVariable $googleDriveSession
-             #Get the actual uri from Google warning page
-             $r.Content -match 'action=\"(.*?)\"'
-             Add-Type -AssemblyName System.Web
-             #Fix some url encoding
-             $d = [System.Web.HttpUtility]::HtmlDecode($matches[1])
-             #Download Test Studio
-             Invoke-WebRequest -Uri $d -WebSession $googleDriveSession -Method Post -OutFile "TestStudio_Runtime.msi"
+      - uses: robinraju/release-downloader@v1.9
+        with:
+         latest: true
+         repository: "jonathanread/test-studio"
+         fileName: "Telerik.TestStudio.msi"
       - name: Install Test Studio Runtime
         shell: pwsh
         run: |
              $log = "install.log" 
-             $procMain = Start-Process "msiexec" "/i `"TestStudio_Runtime.msi`" /qn /l*! `"$log`"" -NoNewWindow -PassThru
+             $procMain = Start-Process "msiexec" "/i `"Telerik.TestStudio.msi`" /qn /l*! `"$log`"" -NoNewWindow -PassThru
              #uncomment below if you want to debug the install process
              #$procLog = Start-Process "powershell" "Get-Content -Path `"$log`" -Wait" -NoNewWindow -PassThru 
              $procMain.WaitForExit() 
