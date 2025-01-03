@@ -30,7 +30,7 @@ jobs:
         with:
          latest: true
          repository: "jonathanread/test-studio"
-         fileName: "Telerik.TestStudio.msi"
+         fileName: "TestStudio_Runtime_2024_3_813_1.msi"
       - name: Install Test Studio Runtime
         shell: pwsh
         run: |
