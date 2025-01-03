@@ -51,7 +51,7 @@ jobs:
         continue-on-error: true
         run: |
             "C:\Program Files (x86)\Progress\Test Studio\Bin\ArtOfTest.Runner.exe" list="${{ github.workspace }}\TestStudioProject1\TestLists\Headless Test.aiilist" result="teststudio" junit    
-     - name: check directories
+      - name: check directories
         shell: pwsh
         run: |
           ls ${{ github.workspace }}
