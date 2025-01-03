@@ -28,8 +28,8 @@ jobs:
       # Runs a single command using the runners shell
       - name: Get Test Studio Runtime
         shell: pwsh
-        run: |
-             $r = Invoke-WebRequest -Uri "https://drive.google.com/uc?export=download&id=1QYdNQYTls9oqLB6QCR1f9DG_ZxTJstDn" -SessionVariable $googleDriveSession
+        run: | 
+             $r = Invoke-WebRequest -Uri "https://drive.google.com/uc?export=download&id=1eWgwGXbAXlEn4ex7QDZhkgX2NwnV1A3B" -SessionVariable $googleDriveSession
              #Get the actual uri from Google warning page
              $r.Content -match 'action=\"(.*?)\"'
              Add-Type -AssemblyName System.Web
@@ -47,12 +47,17 @@ jobs:
              $procMain.WaitForExit() 
              #uncomment below if you want to debug the install process
              #$procLog.Kill()
-      - name: Run Test List
+      - name: Run Test List Headed
         shell: cmd
         continue-on-error: true
         run: |
             "C:\Program Files (x86)\Progress\Test Studio\Bin\ArtOfTest.Runner.exe" list="${{ github.workspace }}\TestStudioProject1\TestLists\TestList1.aiilist" result="teststudio" junit
-      - name: check directories
+      - name: Run Test List Headless
+        shell: cmd
+        continue-on-error: true
+        run: |
+            "C:\Program Files (x86)\Progress\Test Studio\Bin\ArtOfTest.Runner.exe" list="${{ github.workspace }}\TestStudioProject1\TestLists\Headless Test.aiilist" result="teststudio" junit    
+     - name: check directories
         shell: pwsh
         run: |
           ls ${{ github.workspace }}

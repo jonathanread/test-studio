@@ -2,6 +2,7 @@
   "__type": "ArtOfTest.WebAii.Design.ProjectModel.Test",
   "__value": {
     "DomStatesCounter": {},
+    "AppStartSkip": false,
     "WebKitExecutionDelay": 0,
     "ReuseAppWindow": 0,
     "ProfilerResultsDirectory": null,
@@ -203,13 +204,13 @@
     "SilverlightAppOriginUri": null,
     "WpfAppPath": null,
     "AppStartArgs": null,
+    "AppWorkingFolder": null,
     "UseDefaultWpfAppPath": false,
     "DesktopAppPath": null,
     "UseDefaultDesktopAppPath": false,
     "TestAssembly": "TestStudioProject1.dll",
     "TestAssemblyPath": "bin",
     "TestClass": "",
-    "IsManual": false,
     "ResourceFilePath": "WebTest1.resx",
     "ElementImageStoreFilePath": "WebTest1.imgstore",
     "HasCodeBehind": false,
@@ -239,9 +240,6 @@
     "StopTestListOnFailure": false,
     "InheritParentDataSource": false,
     "BrowserType": 0,
-    "QcId": 0,
-    "QcFilePath": null,
-    "QcTestVersionStamp": 0,
     "TestLinks": [],
     "Description": "",
     "Name": "WebTest1",
@@ -252,6 +250,6 @@
     "UniqueId": "9f5a165b-349f-4c7a-a12d-2e453c386ec8",
     "Id": "9f5a165b-349f-4c7a-a12d-2e453c386ec8",
     "ProjectId": "bf6af535-138f-4586-ae6f-42bbc248d10d",
-    "Version": 200
+    "Version": 210
   }
 }

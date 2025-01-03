@@ -1,2 +1,11 @@
 <?xml version="1.0" encoding="utf-8"?>
-<ArrayOfOpenItem xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" />
+<ArrayOfOpenItem xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+  <OpenItem>
+    <OpenItemType>TestFile</OpenItemType>
+    <Path>C:\Work\TestStudio\GitHub\test-studio\TestStudioProject1\WebTest1.tstest</Path>
+  </OpenItem>
+  <OpenItem>
+    <OpenItemType>TestFile</OpenItemType>
+    <Path>C:\Work\TestStudio\GitHub\test-studio\TestStudioProject1\FailingTest.tstest</Path>
+  </OpenItem>
+</ArrayOfOpenItem>

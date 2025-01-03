@@ -1,10 +1,10 @@
 {
   "__type": "ArtOfTest.WebAii.Design.Execution.TestList",
   "__value": {
-    "TestListId": "7fe27e53-fd67-4283-8803-cc0d962d8378",
-    "Id": "7fe27e53-fd67-4283-8803-cc0d962d8378",
-    "TestListName": "TestList1",
-    "CreationDate": "2019-08-28T02:19:13-04:00",
+    "TestListId": "0741de99-075d-4cd1-8714-b2e1eb9cce77",
+    "Id": "0741de99-075d-4cd1-8714-b2e1eb9cce77",
+    "TestListName": "Headless Test",
+    "CreationDate": "2025-01-03T11:56:43-05:00",
     "OwnerName": null,
     "Settings": {
       "__type": "ArtOfTest.WebAii.Core.Settings",
@@ -28,7 +28,7 @@
             "LocalWebServer": 0,
             "EnableUILessRequestViewing": false,
             "WebAppPhysicalPath": "",
-            "DefaultBrowser": 7,
+            "DefaultBrowser": 11,
             "EnableScriptLogging": false,
             "BaseUrl": "",
             "KillBrowserProcessOnClose": false,
