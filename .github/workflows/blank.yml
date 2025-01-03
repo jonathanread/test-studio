@@ -35,7 +35,7 @@ jobs:
         shell: pwsh
         run: |
              $log = "install.log" 
-             $procMain = Start-Process "msiexec" "/i `"Telerik.TestStudio.msi`" /qn /l*! `"$log`"" -NoNewWindow -PassThru
+             $procMain = Start-Process "msiexec" "/i `"TestStudio_Runtime_2024_3_813_1.msi`" /qn /l*! `"$log`"" -NoNewWindow -PassThru
              #uncomment below if you want to debug the install process
              #$procLog = Start-Process "powershell" "Get-Content -Path `"$log`" -Wait" -NoNewWindow -PassThru 
              $procMain.WaitForExit() 
