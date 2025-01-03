@@ -1,0 +1,312 @@
+{
+  "__type": "ArtOfTest.WebAii.Design.Execution.RunResult",
+  "__value": {
+    "IsComplete": true,
+    "Name": "Headless Test",
+    "StartTime": "2025-01-03T18:08:02Z",
+    "EndTime": "2025-01-03T18:08:10.3310227Z",
+    "Id": "26ae0f13-2179-4b52-957a-207ad994539b",
+    "PassedResult": false,
+    "IsRerun": false,
+    "HasWarnings": false,
+    "PassedCount": 1,
+    "FailedCount": 1,
+    "NotRunCount": 0,
+    "DispatchGroupId": "00000000-0000-0000-0000-000000000000",
+    "DataCollectors": {},
+    "TestResults": [
+      {
+        "__type": "ArtOfTest.WebAii.Design.Execution.TestResult",
+        "__value": {
+          "Browser": 11,
+          "ExeType": 5,
+          "SeparatorLineCharCount": 60,
+          "Message": "Overall Result: Pass\r\n------------------------------------------------------------\r\n'1/3/2025 1:08:03 PM' - Executing test: 'WebTest1', path: 'WebTest1.tstest.'\r\n'1/3/2025 1:08:03 PM' - Using .Net Runtime version: '4.0.30319.42000' for test execution. Build version is '2024.2.522.6'.\r\n'1/3/2025 1:08:03 PM' - Starting execution....\r\n------------------------------------------------------------\r\n'1/3/2025 1:08:03 PM' - Tip: The current monitor(s) setup is not at 100% scale!\nFor best recording and execution experience please set all monitor scaling to 100%.\r\n------------------------------------------------------------\r\n------------------------------------------------------------\r\n'1/3/2025 1:08:04 PM' - Using 'ChromeHeadless' version '131.0.6778.205' as default browser. \r\n'1/3/2025 1:08:04 PM' - Using Telerik Components Version: 'Latest'\r\n'1/3/2025 1:08:04 PM' - LOG: NavigateTo: https://pro.jread.cloud.sitefinity.com/\r\n'1/3/2025 1:08:05 PM' - 'Pass' : 1. Navigate to : 'https://pro.jread.cloud.sitefinity.com/'\r\n'1/3/2025 1:08:05 PM' - 'Pass' : 2. Verify element 'Div' 'is' visible.\r\n------------------------------------------------------------\r\n'1/3/2025 1:08:05 PM' - Overall Result: Pass\r\n'1/3/2025 1:08:05 PM' - Duration: [0 min: 0 sec: 937 msec]\r\n------------------------------------------------------------\r\n'1/3/2025 1:08:06 PM' - Test completed!\r\n",
+          "ScreenRecordingResultPath": null,
+          "ScreenRecordingResultError": null,
+          "ScreenRecordingResultCodec": null,
+          "ScreenRecordingResultSize": 0,
+          "FailureException": null,
+          "Result": 0,
+          "TestId": "9f5a165b-349f-4c7a-a12d-2e453c386ec8",
+          "TestName": "WebTest1",
+          "IsRerun": false,
+          "TestPath": "WebTest1.tstest",
+          "TestOwner": null,
+          "TestDescription": "",
+          "ProjectPath": "",
+          "StepResults": [
+            {
+              "__type": "ArtOfTest.WebAii.Design.AutomationStepResult",
+              "__value": {
+                "TestName": "WebTest1",
+                "TestPath": "WebTest1.tstest",
+                "TestId": "9f5a165b-349f-4c7a-a12d-2e453c386ec8",
+                "TestStepIndex": 0,
+                "StepDescription": "Navigate to : 'https://pro.jread.cloud.sitefinity.com/'",
+                "Exception": null,
+                "ResultType": 0,
+                "State": null,
+                "Order": 1,
+                "LogMessageOnError": "",
+                "UserComment": null,
+                "HashCode": 1347723234,
+                "IsManual": false,
+                "WasStepEnabled": false,
+                "Warnings": null
+              }
+            },
+            {
+              "__type": "ArtOfTest.WebAii.Design.AutomationStepResult",
+              "__value": {
+                "TestName": "WebTest1",
+                "TestPath": "WebTest1.tstest",
+                "TestId": "9f5a165b-349f-4c7a-a12d-2e453c386ec8",
+                "TestStepIndex": 1,
+                "StepDescription": "Verify element 'Div' 'is' visible.",
+                "Exception": null,
+                "ResultType": 0,
+                "State": null,
+                "Order": 2,
+                "LogMessageOnError": "",
+                "UserComment": null,
+                "HashCode": 1164883278,
+                "IsManual": false,
+                "WasStepEnabled": false,
+                "Warnings": null
+              }
+            }
+          ],
+          "NotRunStepDescriptions": [],
+          "TotalPassedSteps": 2,
+          "ExecutingTestStepCount": 2,
+          "TotalNumberOfNotRunSteps": 0,
+          "IsDataDrivenResult": false,
+          "DataIterationResults": [],
+          "EndTime": "2025-01-03T18:08:05.8567442Z",
+          "StartTime": "2025-01-03T18:08:04.919076Z",
+          "ProfilerResultsPath": null,
+          "VersionGroupKey": "00000000-0000-0000-0000-000000000000",
+          "CommitedBy": null,
+          "HasWarnings": false
+        }
+      },
+      {
+        "__type": "ArtOfTest.WebAii.Design.Execution.TestResult",
+        "__value": {
+          "Browser": 11,
+          "ExeType": 5,
+          "SeparatorLineCharCount": 60,
+          "Message": "Overall Result: Fail\r\n------------------------------------------------------------\r\n'1/3/2025 1:08:06 PM' - Executing test: 'FailingTest', path: 'FailingTest.tstest.'\r\n'1/3/2025 1:08:06 PM' - Using .Net Runtime version: '4.0.30319.42000' for test execution. Build version is '2024.2.522.6'.\r\n'1/3/2025 1:08:06 PM' - Starting execution....\r\n------------------------------------------------------------\r\n'1/3/2025 1:08:06 PM' - Tip: The current monitor(s) setup is not at 100% scale!\nFor best recording and execution experience please set all monitor scaling to 100%.\r\n------------------------------------------------------------\r\n------------------------------------------------------------\r\n'1/3/2025 1:08:08 PM' - Using 'ChromeHeadless' version '131.0.6778.205' as default browser. \r\n'1/3/2025 1:08:08 PM' - Using Telerik Components Version: 'Latest'\r\n'1/3/2025 1:08:08 PM' - LOG: NavigateTo: https://pro.jread.cloud.sitefinity.com/\r\n'1/3/2025 1:08:08 PM' - 'Pass' : 1. Navigate to : 'https://pro.jread.cloud.sitefinity.com/'\r\n'1/3/2025 1:08:09 PM' - 'Fail' : 2. Verify 'TextContent' 'Exact' 'Explore Menu Options!!' on 'ExploreMenuH2Tag'\r\n------------------------------------------------------------\r\nFailure Information: \r\n~~~~~~~~~~~~~~~\r\nContent.TextContent of 'ExploreMenuH2Tag' does not match!\n\n   Match Type: 'Exact'\n   Expected Result: 'Explore Menu Options!!'\n   Value at time of failure: 'Explore Menu Options'\r\n------------------------------------------------------------\r\n'1/3/2025 1:08:09 PM' - Detected a failure. Step is marked 'ContinueOnFailure=False' aborting test execution.\r\n------------------------------------------------------------\r\n'1/3/2025 1:08:09 PM' - Overall Result: Fail\r\n'1/3/2025 1:08:09 PM' - Duration: [0 min: 1 sec: 388 msec]\r\n------------------------------------------------------------\r\n'1/3/2025 1:08:09 PM' - Test completed!\r\n",
+          "ScreenRecordingResultPath": null,
+          "ScreenRecordingResultError": null,
+          "ScreenRecordingResultCodec": null,
+          "ScreenRecordingResultSize": 0,
+          "FailureException": {
+  "__type": "ArtOfTest.Common.Design.Exceptions.VerificationException",
+  "__value": {
+    "message": "Content.TextContent of 'ExploreMenuH2Tag' does not match!\n\n   Match Type: 'Exact'\n   Expected Result: 'Explore Menu Options!!'\n   Value at time of failure: 'Explore Menu Options'",
+    "DataProvider": {
+      "__type": "ArtOfTest.Common.Design.Exceptions.ErrorDataProvider",
+      "__value": {
+        "_info": {
+          "HostState": {
+            "__type": "ArtOfTest.WebAii.Design.AutomationHostState",
+            "__value": {
+              "Mode": 2,
+              "DomFilePath": "headless_files\\FailingTest_0_DomTreeOnFailure.txt",
+              "ImageFilePath": "headless_files\\FailingTest_0_ImageOnFailure.png",
+              "ExpectedImageFilePath": null,
+              "TechnologyType": 1,
+              "FriendlyName": "Capture Of 'Page (Coriander Lane Corporate)' @1/3/2025 1:08:09 PM"
+            }
+          },
+          "VerificationResult": {
+            "__type": "ArtOfTest.Common.Design.Extensibility.VerificationResult",
+            "__value": {
+              "Passed": false,
+              "ErrorMessage": "Content.TextContent of 'ExploreMenuH2Tag' does not match!\n\n   Match Type: 'Exact'\n   Expected Result: 'Explore Menu Options!!'\n   Value at time of failure: 'Explore Menu Options'",
+              "WarningMessage": null
+            }
+          },
+          "ValueStore": {
+            "__type": "ArtOfTest.Common.Design.Extensibility.DescriptorValueStore",
+            "__value": {
+              "_store": {
+                "ExpectedString": "Explore Menu Options"
+              }
+            }
+          }
+        }
+      }
+    }
+  }
+},
+          "Result": 1,
+          "TestId": "8a5d8f2d-aaa8-4eda-87b0-d75a2407b6ac",
+          "TestName": "FailingTest",
+          "IsRerun": false,
+          "TestPath": "FailingTest.tstest",
+          "TestOwner": "",
+          "TestDescription": "",
+          "ProjectPath": "",
+          "StepResults": [
+            {
+              "__type": "ArtOfTest.WebAii.Design.AutomationStepResult",
+              "__value": {
+                "TestName": "FailingTest",
+                "TestPath": "FailingTest.tstest",
+                "TestId": "8a5d8f2d-aaa8-4eda-87b0-d75a2407b6ac",
+                "TestStepIndex": 0,
+                "StepDescription": "Navigate to : 'https://pro.jread.cloud.sitefinity.com/'",
+                "Exception": null,
+                "ResultType": 0,
+                "State": null,
+                "Order": 1,
+                "LogMessageOnError": "",
+                "UserComment": null,
+                "HashCode": 1347723234,
+                "IsManual": false,
+                "WasStepEnabled": false,
+                "Warnings": null
+              }
+            },
+            {
+              "__type": "ArtOfTest.WebAii.Design.AutomationStepResult",
+              "__value": {
+                "TestName": "FailingTest",
+                "TestPath": "FailingTest.tstest",
+                "TestId": "8a5d8f2d-aaa8-4eda-87b0-d75a2407b6ac",
+                "TestStepIndex": 1,
+                "StepDescription": "Verify 'TextContent' 'Exact' 'Explore Menu Options!!' on 'ExploreMenuH2Tag'",
+                "Exception": {
+  "__type": "ArtOfTest.Common.Design.Exceptions.VerificationException",
+  "__value": {
+    "message": "Content.TextContent of 'ExploreMenuH2Tag' does not match!\n\n   Match Type: 'Exact'\n   Expected Result: 'Explore Menu Options!!'\n   Value at time of failure: 'Explore Menu Options'",
+    "DataProvider": {
+      "__type": "ArtOfTest.Common.Design.Exceptions.ErrorDataProvider",
+      "__value": {
+        "_info": {
+          "HostState": {
+            "__type": "ArtOfTest.WebAii.Design.AutomationHostState",
+            "__value": {
+              "Mode": 2,
+              "DomFilePath": "headless_files\\FailingTest_0_DomTreeOnFailure.txt",
+              "ImageFilePath": "headless_files\\FailingTest_0_ImageOnFailure.png",
+              "ExpectedImageFilePath": null,
+              "TechnologyType": 1,
+              "FriendlyName": "Capture Of 'Page (Coriander Lane Corporate)' @1/3/2025 1:08:09 PM"
+            }
+          },
+          "VerificationResult": {
+            "__type": "ArtOfTest.Common.Design.Extensibility.VerificationResult",
+            "__value": {
+              "Passed": false,
+              "ErrorMessage": "Content.TextContent of 'ExploreMenuH2Tag' does not match!\n\n   Match Type: 'Exact'\n   Expected Result: 'Explore Menu Options!!'\n   Value at time of failure: 'Explore Menu Options'",
+              "WarningMessage": null
+            }
+          },
+          "ValueStore": {
+            "__type": "ArtOfTest.Common.Design.Extensibility.DescriptorValueStore",
+            "__value": {
+              "_store": {
+                "ExpectedString": "Explore Menu Options"
+              }
+            }
+          }
+        }
+      }
+    }
+  }
+},
+                "ResultType": 1,
+                "State": {
+                  "__type": "ArtOfTest.WebAii.Design.AutomationHostState",
+                  "__value": {
+                    "Mode": 2,
+                    "DomFilePath": "headless_files\\FailingTest_0_DomTreeOnFailure.txt",
+                    "ImageFilePath": "headless_files\\FailingTest_0_ImageOnFailure.png",
+                    "ExpectedImageFilePath": null,
+                    "TechnologyType": 1,
+                    "FriendlyName": "Capture Of 'Page (Coriander Lane Corporate)' @1/3/2025 1:08:09 PM"
+                  }
+                },
+                "Order": 2,
+                "LogMessageOnError": "",
+                "UserComment": null,
+                "HashCode": -1313506172,
+                "IsManual": false,
+                "WasStepEnabled": false,
+                "Warnings": null
+              }
+            }
+          ],
+          "NotRunStepDescriptions": [],
+          "TotalPassedSteps": 1,
+          "ExecutingTestStepCount": 2,
+          "TotalNumberOfNotRunSteps": 0,
+          "IsDataDrivenResult": false,
+          "DataIterationResults": [],
+          "EndTime": "2025-01-03T18:08:09.5554916Z",
+          "StartTime": "2025-01-03T18:08:08.1666376Z",
+          "ProfilerResultsPath": null,
+          "VersionGroupKey": "00000000-0000-0000-0000-000000000000",
+          "CommitedBy": null,
+          "HasWarnings": false
+        }
+      }
+    ],
+    "FileName": "headless",
+    "Machine": {
+      "__type": "ArtOfTest.WebAii.Design.Execution.Scheduling.Machine",
+      "__value": {
+        "Id": "00000000-0000-0000-0000-000000000000",
+        "NetworkName": "NBWFHJREAD2",
+        "OperatingSystem": "Windows 10",
+        "InstalledBrowsers": [
+          {
+            "__type": "ArtOfTest.WebAii.Design.Execution.Scheduling.BrowserInformation",
+            "__value": {
+              "Type": 1,
+              "Version": "9.11.19041.0",
+              "IsConfigured": false
+            }
+          },
+          {
+            "__type": "ArtOfTest.WebAii.Design.Execution.Scheduling.BrowserInformation",
+            "__value": {
+              "Type": 2,
+              "Version": "133.0.3 (x64 en-US)",
+              "IsConfigured": true
+            }
+          },
+          {
+            "__type": "ArtOfTest.WebAii.Design.Execution.Scheduling.BrowserInformation",
+            "__value": {
+              "Type": 7,
+              "Version": "131.0.6778.205",
+              "IsConfigured": false
+            }
+          },
+          {
+            "__type": "ArtOfTest.WebAii.Design.Execution.Scheduling.BrowserInformation",
+            "__value": {
+              "Type": 10,
+              "Version": "131.0.2903.112",
+              "IsConfigured": true
+            }
+          }
+        ],
+        "Status": 0,
+        "ServiceUri": null,
+        "DBState": 0,
+        "UserName": "jread"
+      }
+    },
+    "Messages": null,
+    "RunId": "26ae0f13-2179-4b52-957a-207ad994539b",
+    "Comment": null,
+    "TestListId": "0741de99-075d-4cd1-8714-b2e1eb9cce77",
+    "IsManual": false
+  }
+}

@@ -30,7 +30,7 @@
             "WebAppPhysicalPath": "",
             "DefaultBrowser": 7,
             "EnableScriptLogging": false,
-            "BaseUrl": "https://pro.jread.cloud.sitefinity.com/",
+            "BaseUrl": "",
             "KillBrowserProcessOnClose": false,
             "KillBrowsersBeforeStart": true,
             "AutoCalibrateBrowsers": false,

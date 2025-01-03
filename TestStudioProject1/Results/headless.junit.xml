@@ -1,0 +1,17 @@
+﻿<testsuites xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+  <testsuite name="Headless Test" timestamp="2025-01-03T18:08:02Z" hostname="NBWFHJREAD2" tests="2" failures="1" errors="0" time="8.3310227">
+    <testcase name="WebTest1" time="0.9376682" />
+    <testcase name="FailingTest" time="1.388854">
+      <failure>
+
+Verify 'TextContent' 'Exact' 'Explore Menu Options!!' on 'ExploreMenuH2Tag' - 
+			ArtOfTest.Common.Design.Exceptions.VerificationException: Content.TextContent of 'ExploreMenuH2Tag' does not match!
+
+   Match Type: 'Exact'
+   Expected Result: 'Explore Menu Options!!'
+   Value at time of failure: 'Explore Menu Options'
+   at ArtOfTest.WebAii.Design.Execution.ExecutionEngine.ExecuteStep(Int32 order)
+</failure>
+    </testcase>
+  </testsuite>
+</testsuites>

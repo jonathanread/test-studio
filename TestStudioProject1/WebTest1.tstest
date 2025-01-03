@@ -33,13 +33,13 @@
           "__type": "ArtOfTest.WebAii.Design.ProjectModel.AutomationStep",
           "__value": {
             "Runtime ID": "71099156-dd10-45d5-97a7-670eb9f880bc",
-            "Description": "Navigate to : 'https://saas-demo-aut.sitefinity.cloud/'",
+            "Description": "Navigate to : 'https://pro.jread.cloud.sitefinity.com/'",
             "CustomDescription": null,
             "Step": {
               "__type": "ArtOfTest.WebAii.Design.IntrinsicTranslators.Descriptors.NavigateToActionDescriptor",
               "__value": {
                 "UseDecodedUrl": true,
-                "NavigateURL": "https://saas-demo-aut.sitefinity.cloud/",
+                "NavigateURL": "https://pro.jread.cloud.sitefinity.com/",
                 "BaseUrl": "",
                 "SearchByImageFirst": 0,
                 "WaitOnElementsTimeout": 0,

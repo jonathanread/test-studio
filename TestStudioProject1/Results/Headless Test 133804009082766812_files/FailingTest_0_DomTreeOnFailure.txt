@@ -1,0 +1,1021 @@
+<html id="html" lang="en" class="k-webkit k-webkit131"><head> 
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="icon" type="image/x-icon" href="/favicon.ico">
+
+    <script async="" src="https://buttons-config.sharethis.com/js/5c61b39458b9770011925dd0.js"></script><script data-sf-tracking-consent-dialog-script="true" id="sf-tracking-consent-manager" type="text/html"></script><script data-sf-tracking-consent-script="true" src="/WebResource.axd?d=DzHrpQl5URXarFHAtrmzFpL6f-NEiNDairOnxzO9dIVSc0HfB3X1eHgAwrrJZqPXmXA5oyZA22YDKG6yK2Jc92HPqUDBpf3ytE3RUu0KoiL7w-fq01sMZh6qmixpNndCnNT_GJIceFXszxrVg3MlaDdm6Or3qmXESr69kXRQVB7jGimy0&amp;t=638701959900000000" type="text/javascript"></script><title>Coriander Lane Corporate </title><meta property="og:title" content="Coriander Lane Corporate"><meta property="og:image" content="https://pro.jread.cloud.sitefinity.com/images/default-source/default-album/coriander-lane.png?sfvrsn=83079d5c_1"><meta property="og:description" content="Coriander Lane: Culinary excellence since '95. 28 years of tradition and innovation on your plate. Experience perfection, savor the journey. #CorianderLegacy"><meta name="description" content="Coriander Lane Franchise: Innovative menu, exceptional service, diverse dishes, meticulous franchise model, and memorable dining for adults."><link rel="canonical" href="https://pro.jread.cloud.sitefinity.com">
+    <link rel="stylesheet" href="/sfrenderer/styles/main.css" type="text/css">
+    <link rel="stylesheet" href="https://unpkg.com/leaflet@1.9.4/dist/leaflet.css" integrity="sha256-p4NxAoJBhIIN+hmNHrzRCf9tD/miZyoHS5obTRR9BMY=" crossorigin="">
+
+    
+    
+        <link rel="stylesheet" href="/css/coriander-lane.min.css">
+        <script src="/scripts/main.min.js"></script>
+    
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin="">
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&amp;display=swap" rel="stylesheet">
+
+    
+    
+        
+    
+
+    <script src="https://unpkg.com/leaflet@1.9.4/dist/leaflet.js" integrity="sha256-20nQCchB9co0qIjJZRGuk2/Z9VM+kNiyxNV1lvTlZBo=" crossorigin=""></script>
+        <script type="text/javascript" src="https://platform-api.sharethis.com/js/sharethis.js#property=5c61b39458b9770011925dd0&amp;product=sop" async="async"></script>
+    
+    <link href="https://kendo.cdn.telerik.com/themes/8.0.1/default/default-main.css" rel="stylesheet">
+    <script src="https://code.jquery.com/jquery-3.7.0.min.js"></script>
+    <script src="https://kendo.cdn.telerik.com/2024.2.514/js/kendo.all.min.js"></script>
+    <script src="/scripts/kendo-ui-license.js"></script>
+<style type="text/css">#st-2 {
+  font-family: "Helvetica Neue", Verdana, Helvetica, Arial, sans-serif;;
+  -moz-transition: all 0.2s ease-in; -ms-transition: all 0.2s ease-in; -o-transition: all 0.2s ease-in; -webkit-transition: all 0.2s ease-in; transition: all 0.2s ease-in;
+  backface-visibility: hidden;
+  display: block;
+  position: fixed;
+  opacity: 1;
+  text-align: left;
+  top: 160px;
+  z-index: 94034;
+}
+#st-2.st-left {
+  left: 0px;
+}
+#st-2.st-hidden.st-left {
+  left: -40px;
+}
+#st-2.st-hidden {
+  width: 80px;
+}
+#st-2.st-preview {
+  display: none!important;
+  opacity: 0!important;
+}
+#st-2 > div {
+  clear: left;
+  float: left;
+}
+#st-2 .st-btn {
+  -moz-box-sizing: border-box;
+-webkit-box-sizing: border-box;
+box-sizing: border-box;
+  -moz-transition: all 0.2s ease-in; -ms-transition: all 0.2s ease-in; -o-transition: all 0.2s ease-in; -webkit-transition: all 0.2s ease-in; transition: all 0.2s ease-in;
+  border: none;
+  cursor: pointer;
+  display: inline-block;
+  font-size: 12px;
+  height: 40px;
+  line-height: 20px;
+  margin-bottom: 0;
+  opacity: 1;
+  overflow: hidden;
+  padding: 10px;
+  position: relative;
+  text-align: left;
+  top: 0;
+  vertical-align: top;
+  white-space: nowrap;
+  width: 40px;
+}
+#st-2 .st-btn.st-first {
+  border-top: none;
+  border-top-right-radius: 0px;
+}
+#st-2 .st-btn.st-last {
+  border-bottom: none;
+  border-bottom-right-radius: 0px;
+}
+#st-2 .st-btn > svg {
+  -moz-transition: all 0.2s ease-in; -ms-transition: all 0.2s ease-in; -o-transition: all 0.2s ease-in; -webkit-transition: all 0.2s ease-in; transition: all 0.2s ease-in;
+  height: 20px;
+  margin-left: 0;
+  vertical-align: top;
+  width: 20px;
+}
+#st-2 .st-btn > img {
+  -moz-transition: all 0.2s ease-in; -ms-transition: all 0.2s ease-in; -o-transition: all 0.2s ease-in; -webkit-transition: all 0.2s ease-in; transition: all 0.2s ease-in;
+  height: 20px;
+  margin-left: 0;
+  vertical-align: top;
+  width: 20px;
+}
+#st-2 .st-btn > span {
+  -moz-transition: all 0.2s ease-in; -ms-transition: all 0.2s ease-in; -o-transition: all 0.2s ease-in; -webkit-transition: all 0.2s ease-in; transition: all 0.2s ease-in;
+  color: #fff;
+  display: inline-block;
+  font-weight: 500;
+  left: -35px;
+  letter-spacing: 0.5px;
+  opacity: 0;
+  padding: 0 6px;
+  position: relative;
+  vertical-align: top;
+  filter: alpha(opacity=0);
+}
+#st-2 .st-btn.st-hide-label > span {
+  display: none !important;
+}
+#st-2 .st-total {
+  -moz-transition: all 0.2s ease-in; -ms-transition: all 0.2s ease-in; -o-transition: all 0.2s ease-in; -webkit-transition: all 0.2s ease-in; transition: all 0.2s ease-in;
+  background: #fff;
+  color: #555;
+  display: inline-block;
+  font-weight: 500;
+  line-height: 15px;
+  margin-right: 0;
+  min-height: 34px;
+  max-width: 80px;
+  opacity: 1;
+  padding: 4px 0;
+  text-align: center;
+  width: 40px;
+}
+#st-2 .st-total.st-hidden {
+  display: none;
+}
+#st-2 .st-total > span {
+  display: block;
+  font-size: 15px;
+  line-height: 18px;
+  padding: 0;
+}
+#st-2 .st-total > span.st-shares {
+  font-size: 9px;
+  line-height: 9px;
+}
+#st-2 .st-toggle {
+  left: -40px;
+  -moz-transition: all 0.2s ease-in; -ms-transition: all 0.2s ease-in; -o-transition: all 0.2s ease-in; -webkit-transition: all 0.2s ease-in; transition: all 0.2s ease-in;
+  background: #ccc;
+  border-bottom-right-radius: 0px;
+  color: white;
+  cursor: pointer;
+  font-size: 20px;
+  line-height: 20px;
+  position: relative;
+  text-align: center;
+  width: 40px;
+}
+#st-2.st-hidden .st-toggle {
+  border-top-right-radius: 0px;
+}
+#st-2.st-left .st-toggle .st-left {
+  display: inline-block;
+}
+#st-2.st-left.st-hidden .st-toggle .st-left {
+  display: none;
+}
+#st-2.st-left .st-toggle .st-right {
+  display: none;
+}
+#st-2.st-left.st-hidden .st-toggle .st-right {
+  display: inline-block;
+}#st-2:hover .st-toggle {
+  left: 0;
+}
+#st-2.st-hidden:hover .st-toggle {
+  left: 40px;
+}
+#st-2.st-toggleable:hover .st-btn.st-last {
+  border-bottom-right-radius: 0;
+}
+#st-2.st-toggleable:hover .st-btn.st-last:hover {
+  border-bottom-right-radius: 0px;
+}
+#st-2 .st-btn:hover {
+  border-bottom-right-radius: 0px;
+  border-top-right-radius: 0px;
+}
+#st-2.st-has-labels .st-btn:hover {
+  width: 120px;
+}
+#st-2:not(.st-has-labels) .st-btn:hover {
+  width: 52px;
+}
+#st-2 .st-btn.st-hide-label:hover {
+  width: 52px;
+}
+#st-2 .st-btn:hover > svg {
+  margin-left: 5px;
+}
+#st-2 .st-btn:hover > img {
+  margin-left: 5px;
+}
+#st-2 .st-btn:hover > span {
+  opacity: 1;
+  display: inline-block;
+  left: 0;
+  filter: alpha(opacity=100);
+}
+@media (max-width: 1024px) {
+  #st-2 .st-btn:hover > svg {
+    margin-left: 0;
+  }
+  #st-2 .st-btn:hover > span {
+    display: none;
+  }
+}@media (max-width: 1024px) {
+  #st-2 {
+  bottom: 0;
+  display: flex;
+  left: 0;
+  right: 0;
+  top: auto;
+  width: 100%;
+}
+#st-2.st-hidden {
+  bottom: -40px;
+  width: 100%;
+}
+#st-2.st-hidden.st-left {
+  left: 0;
+}
+#st-2.st-hidden.st-right {
+  right: 0;
+}
+#st-2 > div {
+  -moz-flex: 1;
+  -ms-flex: 1;
+  -webkit-flex: 1;
+  clear: none;
+  flex: 1;
+  float: none;
+}
+#st-2 .st-total {
+  background: #fff;
+  padding: 6px 8px;
+}
+#st-2 .st-btn {
+  -moz-border-radius: 0 !important;
+-webkit-border-radius: 0 !important;
+border-radius: 0 !important;
+  text-align: center;
+  width: auto;
+}
+#st-2 .st-btn > span {
+  display: none;
+}
+#st-2 .st-toggle {
+  display: none;
+}body { padding-bottom: 48px; }
+}#st-2 .st-btn[data-network='twitter'] {
+  background-color: #eee
+}
+#st-2 .st-btn[data-network='twitter'] img {
+  filter: invert(100%) sepia(100%) saturate(22%) hue-rotate(45deg) brightness(107%) contrast(105%)
+}
+#st-2 .st-btn[data-network='twitter'] > span {
+  color: #000
+}
+#st-2 .st-btn[data-network='email'] {
+  background-color: #eee
+}
+#st-2 .st-btn[data-network='email'] img {
+  filter: invert(100%) sepia(100%) saturate(22%) hue-rotate(45deg) brightness(107%) contrast(105%)
+}
+#st-2 .st-btn[data-network='email'] > span {
+  color: #000
+}
+#st-2 .st-btn[data-network='sms'] {
+  background-color: #eee
+}
+#st-2 .st-btn[data-network='sms'] img {
+  filter: invert(100%) sepia(100%) saturate(22%) hue-rotate(45deg) brightness(107%) contrast(105%)
+}
+#st-2 .st-btn[data-network='sms'] > span {
+  color: #000
+}
+#st-2 .st-btn[data-network='facebook'] {
+  background-color: #eee
+}
+#st-2 .st-btn[data-network='facebook'] img {
+  filter: invert(100%) sepia(100%) saturate(22%) hue-rotate(45deg) brightness(107%) contrast(105%)
+}
+#st-2 .st-btn[data-network='facebook'] > span {
+  color: #000
+}
+#st-2 .st-btn[data-network='linkedin'] {
+  background-color: #eee
+}
+#st-2 .st-btn[data-network='linkedin'] img {
+  filter: invert(100%) sepia(100%) saturate(22%) hue-rotate(45deg) brightness(107%) contrast(105%)
+}
+#st-2 .st-btn[data-network='linkedin'] > span {
+  color: #000
+}
+#st-2 .st-btn[data-network='messenger'] {
+  background-color: #eee
+}
+#st-2 .st-btn[data-network='messenger'] img {
+  filter: invert(100%) sepia(100%) saturate(22%) hue-rotate(45deg) brightness(107%) contrast(105%)
+}
+#st-2 .st-btn[data-network='messenger'] > span {
+  color: #000
+}
+#st-2 .st-btn[data-network='copy'] {
+  background-color: #eee
+}
+#st-2 .st-btn[data-network='copy'] img {
+  filter: invert(100%) sepia(100%) saturate(22%) hue-rotate(45deg) brightness(107%) contrast(105%)
+}
+#st-2 .st-btn[data-network='copy'] > span {
+  color: #000
+}
+#st-2 .st-btn[data-network='pinterest'] {
+  background-color: #eee
+}
+#st-2 .st-btn[data-network='pinterest'] img {
+  filter: invert(100%) sepia(100%) saturate(22%) hue-rotate(45deg) brightness(107%) contrast(105%)
+}
+#st-2 .st-btn[data-network='pinterest'] > span {
+  color: #000
+}
+#st-2 .st-btn[data-network='print'] {
+  background-color: #eee
+}
+#st-2 .st-btn[data-network='print'] img {
+  filter: invert(100%) sepia(100%) saturate(22%) hue-rotate(45deg) brightness(107%) contrast(105%)
+}
+#st-2 .st-btn[data-network='print'] > span {
+  color: #000
+}#st-2 .st-btn[data-network='snapchat'] > span {
+  color: #333};
+}#st-2 .st-btn[data-network='copy']:hover {
+  width: max-content;
+}</style></head>
+
+
+<body class="container-fluid d-flex flex-column"><div></div><script id="1805345892" src="/sfrenderer/scripts/bootstrap.bundle.min.js?version=2029865528" type="text/javascript"></script>
+        <div id="tracking-consent" style="display: block;">
+            <strong>We would like to track you</strong>
+            <p>We use cookies to personalize content and to analyze our traffic. Some of these cookies also help improve your user experience on our websites, assist with navigation and your ability to provide feedback, and assist with our promotional and marketing efforts.</p>
+            <button type="button" onclick="TrackingConsentManager.updateUserConsent(true)" id="tracking-consent-dialog-accept" class="btn btn-primary me-4">I Accept</button>
+            <button type="button" onclick="TrackingConsentManager.updateUserConsent(false)" id="tracking-consent-dialog-reject" class="btn btn-secondary">I Refuse</button>
+        </div>
+    <header class="position-relative">
+<section style="--sf-background-color: #44455C" class="row align-items-center justify-content-between">
+        <div style="" class="col-md-8 pt-2 pb-2 cl-logo-menu-wrapper col-xl-7">
+<section style="" class="row pt-2 pb-2 flex-nowrap">
+        <div style="" class="col-md-2 cl-logo-menu-wrapper__logo-wrapper col-xl-2">
+
+
+
+<div class="">
+<a class="d-flex flex-column" href="/home"><img src="/images/default-source/default-album/logo2_white-1x.png?sfvrsn=75edba85_3" class="img-fluid d-none cmp-logo-large" alt="Company logo"><img src="/images/default-source/default-album/coriander-mobile-logo6251a84e-169e-451e-a7d9-7709e790b402.png?sfvrsn=d1c34770_3" class="img-fluid align-self-center cmp-logo-small" alt="Company logo"><span class="text-center">Corporate</span>
+</a></div>
+</div>
+        <div style="" class="col-md-10 cl-logo-menu-wrapper__menu-wrapper col-xl-9">
+
+
+
+    
+
+
+
+<div class="cl-main-navigation col-12 d-flex h-100">
+    <nav class="navbar navbar-dark navbar-expand-xl col-12">
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbar44db" aria-controls="navbar44db" aria-expanded="false" aria-label="Toggle Navigation">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbar44db">
+            <ul class="navbar-nav mb-md-0 flex-wrap">
+            <li class="nav-item dropdown">
+                <a class="nav-link dropdown-toggle cl-txt-main-nav-color text-uppercase d-flex align-items-center justify-content-center py-0" href="#" id="navbarDropdownMenuLink-7CCEDC9F-E070-4B33-BBB9-5853C203845344db" data-bs-toggle="dropdown" aria-haspopup="true" aria-expanded="false">Menu</a>
+                <ul class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink-7CCEDC9F-E070-4B33-BBB9-5853C203845344db">
+                <li>
+                    <a class="dropdown-item" href="/menu/gluten-free" target="_self">Gluten Free</a>
+                </li>
+                <li>
+                    <a class="dropdown-item" href="/menu/seasonal" target="_self">Seasonal</a>
+                </li>
+                </ul>
+            </li>
+            <li class="nav-item dropdown">
+                <a class="nav-link dropdown-toggle cl-txt-main-nav-color text-uppercase d-flex align-items-center justify-content-center py-0" href="#" id="navbarDropdownMenuLink-6C554117-876A-470B-BBB8-572389B3D1CA44db" data-bs-toggle="dropdown" aria-haspopup="true" aria-expanded="false">Franchising</a>
+                <ul class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink-6C554117-876A-470B-BBB8-572389B3D1CA44db">
+                <li>
+                    <a class="dropdown-item" href="/franchising/frequently-asked-questions" target="_self">Frequently Asked Questions</a>
+                </li>
+                <li>
+                    <a class="dropdown-item" href="/franchising/franchise-application" target="_self">Franchise Application</a>
+                </li>
+                <li>
+                    <a class="dropdown-item" href="/franchising/financial-reports" target="_self">Financial Reports</a>
+                </li>
+                <li>
+                    <a class="dropdown-item" href="/franchising/franchising-info" target="_self">Franchising Info</a>
+                </li>
+                <li>
+                    <a class="dropdown-item" href="/franchising/webinars" target="_self">Webinars</a>
+                </li>
+                </ul>
+            </li>
+            <li class="nav-item dropdown">
+                <a class="nav-link dropdown-toggle cl-txt-main-nav-color text-uppercase d-flex align-items-center justify-content-center py-0" href="#" id="navbarDropdownMenuLink-83D0C747-29EA-4F07-8A0D-94CD464BF47A44db" data-bs-toggle="dropdown" aria-haspopup="true" aria-expanded="false">News &amp; Events</a>
+                <ul class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink-83D0C747-29EA-4F07-8A0D-94CD464BF47A44db">
+                <li>
+                    <a class="dropdown-item" href="/news-and-events/news" target="_self">News</a>
+                </li>
+                <li>
+                    <a class="dropdown-item" href="/news-and-events/events" target="_self">Events</a>
+                </li>
+                </ul>
+            </li>
+            <li class="nav-item dropdown">
+                <a class="nav-link dropdown-toggle cl-txt-main-nav-color text-uppercase d-flex align-items-center justify-content-center py-0" href="#" id="navbarDropdownMenuLink-FBAF67A2-F486-4090-B68B-00A767484EA544db" data-bs-toggle="dropdown" aria-haspopup="true" aria-expanded="false">About Us</a>
+                <ul class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink-FBAF67A2-F486-4090-B68B-00A767484EA544db">
+                <li>
+                    <a class="dropdown-item" href="/about-us/company" target="_self">Company</a>
+                </li>
+                <li>
+                    <a class="dropdown-item" href="/about-us/locations" target="_self">Locations</a>
+                </li>
+                <li>
+                    <a class="dropdown-item" href="/about-us/careers" target="_self">Careers</a>
+                </li>
+                <li>
+                    <a class="dropdown-item" href="/about-us/blogs" target="_self">Blogs</a>
+                </li>
+                </ul>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link cl-txt-main-nav-color text-uppercase py-0" href="/contact-us" target="_self">Contact Us</a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link cl-txt-main-nav-color text-uppercase py-0" href="/portal" target="_self">Portal</a>
+            </li>
+            </ul>
+        </div>
+    </nav>
+</div>
+
+
+</div>
+</section>
+</div>
+        <div style="" class="col-md-2 pt-2 pb-2 cl-find-location-search-wrapper bg-secondary">
+<section style="" class="row d-flex align-items-center justify-content-between">
+        <div style="" class="col-md-9 w-auto">
+
+
+<div class="d-flex align-items-center cl-find-location-search-wrapper__link  justify-content-start">
+            <a sfdi-trigger="click" sfdi-predicate="Call to action" sfdi-object="Find a Location" href="/about-us/locations" class="me-3 NavLink" data-call-to-action="">
+                Find a Location
+            </a>
+</div>
+</div>
+        <div style="" class="col-md-3 w-auto">
+
+
+
+	
+
+
+	<button class="btn btn-link btn-sm -search-icon fs-5 text-decoration-none cl-txt-main-nav-color" id="headerSearchToggler" data-bs-toggle="dropdown" aria-haspopup="true" aria-expanded="false" aria-label="Search Button"></button>
+	<div class=" cl-header-search dropdown-menu form-inline" aria-labelledby="headerSearchToggler" data-sf-search-autocomplete-item-class="dropdown-item text-truncate" data-sf-visibility-hidden="d-none" data-sf-active-class="active">
+
+				<div class="form-group cl-search-input-wrapper d-flex justify-content-center align-items-center pr-0 position-relative">
+					<input value="" class="form-control" data-sf-role="search-box" data-sf-results-url="/search-results" data-sf-search-catalogue="corporate-search-index" data-sf-scoring-setting="" data-sf-suggestions-length="3" data-sf-site-id="d51c79df-fa2c-4f49-84d8-f155ab0fccb5" data-sf-culture="en" data-sf-sort="" data-sf-suggestions-fields="Title,Content" data-sf-results-all="0" data-sf-service-path="/api/default" type="text" placeholder="Search...">
+					<button data-sf-role="search-button" class="btn btn-secondary ms-2 flex-shrink-0">
+						Search
+					</button>
+
+						<ul data-sf-role="search-box-autocomplete" class="border bg-body list-unstyled position-absolute d-none cl-header-search__autocomplete" role="listbox">
+						</ul>
+				</div>
+	</div>
+</div>
+</section>
+</div>
+        <div style="" class="col-md-2 pt-2 pb-2 ps-2 cl-user">
+<section style="" class="row pt-2 pb-2">
+        <div style="" class="col-md-12 ">
+
+
+
+    <div class="d-flex justify-content-around align-items-center flex-column flex-md-row">
+            <a class="btn btn-primary cl-txt-white rounded-0" href="/portal" target="_self">Login</a>
+    </div>
+</div>
+</section>
+</div>
+</section>
+</header>
+    <main>
+<section style="" class="row p-0">
+        <div style="" class="col-md-12 p-0">
+
+
+<div id="carousel-1d5b" class="carousel slide sliderCarousel" data-bs-ride="carousel">
+    <div class="carousel-indicators">
+            <button data-bs-target="#carousel-1d5b" data-bs-slide-to="0" class="active" aria-label="Local Career Offer"></button>
+            <button data-bs-target="#carousel-1d5b" data-bs-slide-to="1" class="" aria-label="Local Food"></button>
+            <button data-bs-target="#carousel-1d5b" data-bs-slide-to="2" class="" aria-label="Tomato soup slide"></button>
+    </div>
+
+    <div class="carousel-inner overflow-hidden">
+            <div class="carousel-item overflow-hidden w-100 position-relative active carouselItemWrp">
+                <div class="w-100 h-100 mh-100 position-absolute overlay"></div>
+
+                <a href="/about-us/careers" class="text-white">
+                    <div class="item-view mh-100">
+                        <div class="carousel-caption cl-carousel-header-wrapper text-end">
+                            <h1 class="cl-txt-white display-3">
+                                Join Our Team
+                            </h1>
+                            <p class="cl-txt-heading-size-m cl-txt-white">We're looking for the cream of the crop</p>
+                        </div>
+                    </div>
+                </a>
+
+                <picture>
+                                <source media="(max-width: 409px)" srcset="/images/default-source/image-carousels/managerb83e01a0d84f4775a12569f5c4cd5963.tmb-0.jpg?Culture=en&amp;sfvrsn=8a1a1d81_15" type="image/jpeg" width="409" height="160">
+                                <source media="(max-width: 576px)" srcset="/images/default-source/image-carousels/managerb83e01a0d84f4775a12569f5c4cd5963.tmb-sm-banner.jpg?Culture=en&amp;sfvrsn=8a1a1d81_15" type="image/jpeg" width="576" height="162">
+                                <source media="(max-width: 768px)" srcset="/images/default-source/image-carousels/managerb83e01a0d84f4775a12569f5c4cd5963.tmb-md-banner.jpg?Culture=en&amp;sfvrsn=8a1a1d81_15" type="image/jpeg" width="768" height="216">
+                                <source media="(max-width: 992px)" srcset="/images/default-source/image-carousels/managerb83e01a0d84f4775a12569f5c4cd5963.tmb-lg-banner.jpg?Culture=en&amp;sfvrsn=8a1a1d81_15" type="image/jpeg" width="992" height="280">
+                                <source media="(max-width: 1200px)" srcset="/images/default-source/image-carousels/managerb83e01a0d84f4775a12569f5c4cd5963.tmb-xl-banner.jpg?Culture=en&amp;sfvrsn=8a1a1d81_15" type="image/jpeg" width="1200" height="338">
+                    <img class="w-100" data-bs-ride="carousel" src="/images/default-source/image-carousels/managerb83e01a0d84f4775a12569f5c4cd5963.jpg?sfvrsn=8a1a1d81_14" title="Employee" alt="Employee">
+                </picture>
+            </div>
+            <div class="carousel-item overflow-hidden w-100 position-relative  carouselItemWrp">
+                <div class="w-100 h-100 mh-100 position-absolute overlay"></div>
+
+                <a href="/about-us/blogs/posts/corporate-blog/2024/02/20/coriander-lane--a-tasty-tale-from-start-to-table" class="text-white">
+                    <div class="item-view mh-100">
+                        <div class="carousel-caption cl-carousel-header-wrapper text-center">
+                            <h1 class="cl-txt-white display-3">
+                                Locally Grown!!!!!
+                            </h1>
+                            <p class="cl-txt-heading-size-m cl-txt-white">A journey from farm to table</p>
+                        </div>
+                    </div>
+                </a>
+
+                <picture>
+                                <source media="(max-width: 470px)" srcset="/images/default-source/image-carousels/local.tmb-0.jpg?Culture=en&amp;sfvrsn=7a637790_12" type="image/jpeg" width="470" height="160">
+                                <source media="(max-width: 576px)" srcset="/images/default-source/image-carousels/local.tmb-sm-banner.jpg?Culture=en&amp;sfvrsn=7a637790_12" type="image/jpeg" width="576" height="162">
+                                <source media="(max-width: 768px)" srcset="/images/default-source/image-carousels/local.tmb-md-banner.jpg?Culture=en&amp;sfvrsn=7a637790_12" type="image/jpeg" width="768" height="216">
+                                <source media="(max-width: 992px)" srcset="/images/default-source/image-carousels/local.tmb-lg-banner.jpg?Culture=en&amp;sfvrsn=7a637790_12" type="image/jpeg" width="992" height="280">
+                                <source media="(max-width: 1200px)" srcset="/images/default-source/image-carousels/local.tmb-xl-banner.jpg?Culture=en&amp;sfvrsn=7a637790_12" type="image/jpeg" width="1200" height="338">
+                                <source media="(max-width: 1920px)" srcset="/images/default-source/image-carousels/local.tmb-xxl-banner.jpg?Culture=en&amp;sfvrsn=7a637790_12" type="image/jpeg" width="1920" height="540">
+                    <img class="w-100" data-bs-ride="carousel" src="/images/default-source/image-carousels/local.jpg?sfvrsn=7a637790_7" title="Locally Sourced Food" alt="Basket of veggies">
+                </picture>
+            </div>
+            <div class="carousel-item overflow-hidden w-100 position-relative  carouselItemWrp">
+                <div class="w-100 h-100 mh-100 position-absolute overlay"></div>
+
+                <a href="/menu/gluten-free/tomato-bisque" class="text-white">
+                    <div class="item-view mh-100">
+                        <div class="carousel-caption cl-carousel-header-wrapper text-end">
+                            <h1 class="cl-txt-white display-3">
+                                You Are Looking Souper!
+                            </h1>
+                            <p class="cl-txt-heading-size-m cl-txt-white">Try our new Tomato Bisque</p>
+                        </div>
+                    </div>
+                </a>
+
+                <picture>
+                                <source media="(max-width: 352px)" srcset="/images/default-source/image-carousels/pexels-photo-539451.tmb-0.jpeg?Culture=en&amp;sfvrsn=3d2c4c42_7" type="image/jpeg" width="352" height="160">
+                                <source media="(max-width: 576px)" srcset="/images/default-source/image-carousels/pexels-photo-539451.tmb-sm-banner.jpeg?Culture=en&amp;sfvrsn=3d2c4c42_7" type="image/jpeg" width="576" height="162">
+                                <source media="(max-width: 768px)" srcset="/images/default-source/image-carousels/pexels-photo-539451.tmb-md-banner.jpeg?Culture=en&amp;sfvrsn=3d2c4c42_7" type="image/jpeg" width="768" height="216">
+                                <source media="(max-width: 992px)" srcset="/images/default-source/image-carousels/pexels-photo-539451.tmb-lg-banner.jpeg?Culture=en&amp;sfvrsn=3d2c4c42_7" type="image/jpeg" width="992" height="280">
+                    <img class="w-100" data-bs-ride="carousel" src="/images/default-source/image-carousels/pexels-photo-539451.jpeg?sfvrsn=3d2c4c42_4" title="tomato soup" alt="tomato soup">
+                </picture>
+            </div>
+    </div>
+
+        <button class="carousel-control-prev" data-bs-target="#carousel-1d5b" type="button" data-bs-slide="prev">
+            <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+            <span class="sr-only"></span>
+        </button>
+        <button class="carousel-control-next" data-bs-target="#carousel-1d5b" type="button" data-bs-slide="next">
+            <span class="carousel-control-next-icon" aria-hidden="true"></span>
+            <span class="sr-only"></span>
+        </button>
+</div></div>
+</section>
+
+<section style="" class="row pt-2 pb-2 mt-4 mb-5">
+        <div style="" class="col-md-12 ">
+<div class="container">
+<section style="" class="row ">
+        <div style="" class="col-md-12 ">
+
+
+
+
+<div class="mb-4">
+<h2 class="h1 fw-normal">Explore Menu Options</h2></div>
+
+
+
+<section class="row row-cols-1 row-cols-lg-3">
+        <a href="/menu/dish/tomato-bisque">
+            <div class="menu-item-details mb-3">
+                <div class="card rounded-0 cl-food-card">
+                    <div class="cl-food-card__img-wrapper" style="background-image: url('/images/default-source/food-items/appetizers/tomato-bisque.png?sfvrsn=2841a0a4_1')"></div>
+                    <h3 class="cl-food-card__title align-items-center d-flex justify-content-center m-0">
+                        Tomato Bisque
+                    </h3>
+                </div>
+            </div>
+        </a>
+        <a href="/menu/dish/challah-french-toast">
+            <div class="menu-item-details mb-3">
+                <div class="card rounded-0 cl-food-card">
+                    <div class="cl-food-card__img-wrapper" style="background-image: url('/images/default-source/food-items/breakfast/french-toast-maple-berries.jpg?sfvrsn=3984b8bc_3')"></div>
+                    <h3 class="cl-food-card__title align-items-center d-flex justify-content-center m-0">
+                        Challah French Toast
+                    </h3>
+                </div>
+            </div>
+        </a>
+        <a href="/menu/dish/farmers-omelet">
+            <div class="menu-item-details mb-3">
+                <div class="card rounded-0 cl-food-card">
+                    <div class="cl-food-card__img-wrapper" style="background-image: url('/images/default-source/food-items/breakfast/stir-fry-veggie-omlet-(1).jpg?sfvrsn=735b5fd0_3')"></div>
+                    <h3 class="cl-food-card__title align-items-center d-flex justify-content-center m-0">
+                        Farmers Omelet
+                    </h3>
+                </div>
+            </div>
+        </a>
+</section>
+
+</div>
+</section>
+
+<section style="" class="row pt-2 pb-2">
+        <div style="" class="col-md-12 ">
+
+
+<div class="d-flex align-items-center mt-4 mb-5 justify-content-center">
+            <a sfdi-trigger="click" sfdi-predicate="Call to action" sfdi-object="See All Menu Options" href="/menu" class="btn btn-secondary" data-call-to-action="">
+                See All Menu Options
+            </a>
+</div>
+
+
+
+
+<div class="">
+</div>
+</div>
+</section>
+
+<section style="--sf-background-color: #EDF0F5" class="row pt-4 pe-2 pe-md-4 pb-5 ps-2 ps-md-4 ms-n4 me-n4 ms-md-0 me-md-0">
+        <div style="" class="col-md-12 ">
+<section style="" class="row pt-2 pb-2">
+        <div style="" class="col-md-6 ">
+
+
+
+
+<div class="cl-txt-heading-size-l">
+<h2 class="h1">Latest News</h2></div>
+</div>
+        <div style="" class="col-md-6 col-md-6 d-flex justify-content-start justify-content-md-end p-md-0 pb-2">
+
+
+<div class="d-flex align-items-center justify-content-end">
+            <a sfdi-trigger="click" sfdi-predicate="Call to action" sfdi-object="See all news" href="/news-and-events/news" class="me-3 Link" data-call-to-action="">
+                See all news
+            </a>
+</div>
+</div>
+</section>
+
+
+
+
+
+
+<section class="row row-cols-md-1 cl-news-card-latest-news row-cols-lg-3">
+        <article class="card rounded-0 border-0 bg-transparent cl-news-card mb-3 mb-md-0">
+            <div class="cl-news-card__img-wrapper" style="background-image: url('/images/default-source/news/bar-beverage-cocktail-109275.tmb-news-list.jpg?Culture=en&amp;sfvrsn=23eab07a_6')">
+                <a class="d-block h-100 pe-auto position-relative z-1" href="/news-and-events/news/2024/12/19/franchising-is-fun"></a>
+            </div>
+            <div class="cl-news-card__img-overlay"></div>
+            <div class="text-muted my-3 cl-news-card__date">Dec 19, 2024, 17:45 PM</div>
+
+            <h3 class="mb-2">
+                <a class="text-decoration-none cl-txt-dark cl-news-card__title" href="/news-and-events/news/2024/12/19/franchising-is-fun" title="Franchising is Fun">Franchising is Fun</a>
+            </h3>
+            <p class="lh-base cl-news-card__summary">Franchising offers endless adventures for kids with ongoing stories featuring superheroes and wacky characters. These franchises expand into various shows, toys, and games, providing unlimited fun and laughter. Dive in and let your imagination soar!</p>
+            <a class="text-decoration-none cl-news-card__link" href="/news-and-events/news/2024/12/19/franchising-is-fun">Continue reading</a>
+        </article>
+        <article class="card rounded-0 border-0 bg-transparent cl-news-card mb-3 mb-md-0">
+            <div class="cl-news-card__img-wrapper" style="background-image: url('/images/default-source/news/administration-articles-bank-261949.tmb-news-list.jpg?Culture=en&amp;sfvrsn=4ad591ea_6')">
+                <a class="d-block h-100 pe-auto position-relative z-1" href="/news-and-events/news/2023/10/31/now-open-in-west-midtown-atlanta"></a>
+            </div>
+            <div class="cl-news-card__img-overlay"></div>
+            <div class="text-muted my-3 cl-news-card__date">Jul 31, 2024, 20:10 PM</div>
+
+            <h3 class="mb-2">
+                <a class="text-decoration-none cl-txt-dark cl-news-card__title" href="/news-and-events/news/2023/10/31/now-open-in-west-midtown-atlanta" title="Now Open in West Midtown Atlanta!!">Now Open in West Midtown Atlanta!!</a>
+            </h3>
+            <p class="lh-base cl-news-card__summary">Exciting news in West Midtown Atlanta! A new hotspot promises diverse flavors, chic ambiance, and a community hub. Join the culinary adventure and experience the buzz of this vibrant establishment!</p>
+            <a class="text-decoration-none cl-news-card__link" href="/news-and-events/news/2023/10/31/now-open-in-west-midtown-atlanta">Continue reading</a>
+        </article>
+        <article class="card rounded-0 border-0 bg-transparent cl-news-card mb-3 mb-md-0">
+            <div class="cl-news-card__img-wrapper" style="background-image: url('/images/default-source/news/adult-agent-approval-684385.tmb-news-list.jpg?Culture=en&amp;sfvrsn=7cb5454e_6')">
+                <a class="d-block h-100 pe-auto position-relative z-1" href="/news-and-events/news/2023/09/13/save-your-restaurant-from-destruction-by-social-media"></a>
+            </div>
+            <div class="cl-news-card__img-overlay"></div>
+            <div class="text-muted my-3 cl-news-card__date">Sep 17, 2024, 12:27 PM</div>
+
+            <h3 class="mb-2">
+                <a class="text-decoration-none cl-txt-dark cl-news-card__title" href="/news-and-events/news/2023/09/13/save-your-restaurant-from-destruction-by-social-media" title="Save Your Restaurant From Destruction By Social Media!">Save Your Restaurant From Destruction By Social Media!</a>
+            </h3>
+            <p class="lh-base cl-news-card__summary">Shield your restaurant from social media disasters! Embrace feedback, showcase personality, and use humor and memes to navigate potential crises</p>
+            <a class="text-decoration-none cl-news-card__link" href="/news-and-events/news/2023/09/13/save-your-restaurant-from-destruction-by-social-media">Continue reading</a>
+        </article>
+</section>
+
+</div>
+</section>
+
+<section style="--sf-background-color: #5FCF80" class="row pt-4 pe-2 pe-md-4 pb-4 ps-2 ps-md-4 mt-5 align-items-center ms-n4 me-n4 ms-md-0 me-md-0">
+        <div style="" class="col-md-7 ">
+
+
+
+<div class="">
+<h2 class="h1 text-white">Let's Stay Connected</h2></div>
+
+
+
+
+<div class="mb-4 mb-md-0">
+<div class="text-white lh-base">Subscribe to our newsletter - monthly digest of the latest<br>Coriander Lane news, articles, and updates.</div></div>
+</div>
+        <div style="" class="col-md-5 ">
+
+
+
+    
+
+
+        <form action="/forms/submit/sf_email_subscribe/en?sf_site=d51c79df-fa2c-4f49-84d8-f155ab0fccb5&amp;sf_site_temp=true" method="post" novalidate="">
+            <div class="cl-subscription-form -wide" data-sf-role="form-container" data-sf-invalid="is-invalid" data-sf-visibility-inline-visible="d-inline-block" data-sf-visibility-hidden="d-none" data-sf-visibility-visible="d-block">
+
+                <input type="hidden" data-sf-role="redirect-url">
+                <input type="hidden" data-sf-role="custom-submit-action" value="False">
+                <div data-sf-role="success-message" class="valid-feedback" role="alert" aria-live="assertive"></div>
+                <div data-sf-role="error-message" class="invalid-feedback" role="alert" aria-live="assertive"></div>
+                <div data-sf-role="loading" style="display: none;">
+                <div class="d-flex justify-content-center">
+                    <div class="spinner-border" role="status">
+                        <span class="visually-hidden">Loading...</span>
+                        </div>
+                    </div>
+                </div>
+                <div data-sf-role="fields-container">
+
+
+<script data-sf-role="start_field_SitefinityTextFieldFormControl" data-sf-role-field-name="SitefinityTextFieldFormControl"></script>
+<div class="mb-3  " data-sf-role="text-field-container">
+    <input data-sf-role="violation-restrictions" type="hidden" value="{
+  &quot;maxLength&quot;: null,
+  &quot;minLength&quot;: null
+}">
+    <input data-sf-role="violation-messages" type="hidden" value="{
+  &quot;invalidLength&quot;: &quot;Email field input is too long&quot;,
+  &quot;required&quot;: &quot;Email field is required&quot;,
+  &quot;invalid&quot;: &quot;Email field is invalid&quot;,
+  &quot;regularExpression&quot;: &quot;Please match the requested format&quot;
+}">
+
+    <label class="h6" for="SitefinityTextFieldFormControl">Email</label>
+    <input id="SitefinityTextFieldFormControl" type="email" class="form-control" name="SitefinityTextFieldFormControl" placeholder="Email" data-sf-role="text-field-input" aria-describedby="TextboxErrorMessage7af6" required="required">
+
+
+    <div id="TextboxErrorMessage7af6" data-sf-role="error-message" role="alert" aria-live="assertive" class="invalid-feedback"></div>
+</div>
+<script data-sf-role="end_field_SitefinityTextFieldFormControl"></script>
+
+<div class="mb-3" data-sf-role="submit-button-container">
+    <button type="submit" class="btn btn-primary">Subscribe</button>
+</div>
+</div>
+            </div>
+        </form>
+
+</div>
+</section>
+</div></div>
+</section>
+</main>
+    <footer class="mt-auto">
+<section style="" class="row pt-2 cl-footer-nav">
+        <div style="" class="col-md-12 ">
+<section style="--sf-background-color: #EDF0F5" class="row pt-5 pb-2">
+        <div style="" class="col-md-12 -footer-nav-header">
+<div class="container">
+<section style="" class="row pt-2 pb-2">
+        <div style="" class="col-md-3 col-md-6 col-lg-3">
+
+
+
+<div class="">
+<strong>FRANCHISE</strong></div>
+
+
+<div class="-footer-navigation mb-4 mb-lg-0">
+    <nav>
+
+        <ul class="nav flex-column">
+        <li class="nav-item">
+            <a class="nav-link" href="/franchising/frequently-asked-questions" target="_self">Frequently Asked Questions</a>
+
+        </li>
+        <li class="nav-item">
+            <a class="nav-link" href="/franchising/franchise-application" target="_self">Franchise Application</a>
+
+        </li>
+        <li class="nav-item">
+            <a class="nav-link" href="/franchising/financial-reports" target="_self">Financial Reports</a>
+
+        </li>
+        </ul>
+    </nav>
+</div>
+
+
+</div>
+        <div style="" class="col-md-2 col-md-6 col-lg-2">
+
+
+
+<div class="">
+<strong>NEWS &amp; EVENTS</strong></div>
+
+
+<div class="-footer-navigation mb-4 mb-lg-0">
+    <nav>
+
+        <ul class="nav flex-column">
+        <li class="nav-item">
+            <a class="nav-link" href="/news-and-events/events" target="_self">Events</a>
+
+        </li>
+        </ul>
+    </nav>
+</div>
+
+
+</div>
+        <div style="" class="col-md-2 col-md-6 col-lg-2">
+
+
+
+<div class="">
+<strong>ABOUT US</strong></div>
+
+
+<div class="-footer-navigation">
+    <nav>
+
+        <ul class="nav flex-column">
+        <li class="nav-item">
+            <a class="nav-link" href="/about-us/company" target="_self">Company</a>
+
+        </li>
+        <li class="nav-item">
+            <a class="nav-link" href="/about-us/locations" target="_self">Locations</a>
+
+        </li>
+        <li class="nav-item">
+            <a class="nav-link" href="/about-us/careers" target="_self">Careers</a>
+
+        </li>
+        <li class="nav-item">
+            <a class="nav-link" href="/about-us/blogs" target="_self">Blogs</a>
+
+        </li>
+        </ul>
+    </nav>
+</div>
+
+
+</div>
+        <div style="" class="col-md-2 col-md-6 col-lg-2">
+
+
+
+<div class="">
+<strong style="visibility: hidden">Column title placeholder</strong></div>
+
+
+<div class="-footer-navigation">
+    <nav>
+
+        <ul class="nav flex-column">
+        <li class="nav-item">
+            <a class="nav-link" href="/contact-us" target="_self">Contact Us</a>
+
+        </li>
+        </ul>
+    </nav>
+</div>
+
+
+</div>
+        <div style="" class="col-md-3 col-md-6 col-lg-3">
+
+
+<select id="cl-language-selector-6541" class="form-select cl-language-selector -no-bg" aria-label="Default select example">
+        <option selected="selected" value="/home">English</option>
+        <option value="/es/hogar">Spanish</option>
+</select>
+
+<script>
+    document.addEventListener("DOMContentLoaded", () => {
+        const languageSelector = document.getElementById("cl-language-selector-6541");
+        languageSelector.addEventListener("change", (event) => {
+            location.href = event.target.value;
+        })
+    });
+</script></div>
+</section>
+
+<section style="" class="row pt-2 pb-2 mt-4 align-items-center">
+        <div style="" class="col-md-4 -logo col-md-4">
+
+            <a href="/home" class="d-inline-block mt-1 mg-lg-0">
+            <picture class="d-inline-block ">
+                        <source media="(max-width: 160px)" srcset="/images/default-source/default-album/logo2_white-1x.tmb-0.png?Culture=en&amp;sfvrsn=75edba85_4" type="image/png" width="160" height="19">
+                        <source media="(max-width: 240px)" srcset="/images/default-source/default-album/logo2_white-1x.tmb-medium.png?Culture=en&amp;sfvrsn=75edba85_4" type="image/png" width="240" height="28">
+                        <source media="(max-width: 240px)" srcset="/images/default-source/default-album/logo2_white-1x.tmb-small.png?Culture=en&amp;sfvrsn=75edba85_4" type="image/png" width="240" height="28">
+                <img loading="lazy" class="img-fluid" src="/images/default-source/default-album/logo2_white-1x.png?sfvrsn=75edba85_3" title="Logo2_White@1x" alt="Coriander Lane Logo">
+            </picture>
+            </a>
+</div>
+        <div style="" class="col-md-4 col-md-4">
+<section style="" class="row pt-2 pb-2">
+        <div style="" class="col-md-12 ">
+
+
+
+<div class="d-lg-flex d-block justify-content-center my-2 my-lg-0">
+<a href="#" class="link-dark me-2" data-sf-ec-immutable=""><em class="fa-brands fa-instagram"></em></a>
+<a href="#" class="link-dark mx-2" data-sf-ec-immutable=""><em class="fa fa-lg fa-facebook-square"></em></a>
+<a href="#" class="link-dark mx-2" data-sf-ec-immutable=""><em class="fa-brands fa-x-twitter"></em></a>
+<a href="#" class="link-dark mx-2" data-sf-ec-immutable=""><em class="fa fa-lg fa-linkedin"></em></a>
+<a href="#" class="link-dark ms-2" data-sf-ec-immutable=""><em class="fa fa-lg fa-yelp"></em></a></div>
+</div>
+</section>
+</div>
+        <div style="" class="col-md-4 col-md-4">
+
+
+
+<div class="d-lg-flex d-block justify-content-end small mt-1 mg-lg-0">
+<div><em>Copyright ©2024 Coriander Lane. All rights reserved.</em></div></div>
+</div>
+</section>
+</div></div>
+</section>
+</div>
+</section>
+</footer>
+    
+
+
+<script id="PersonalizationTracker" type="application/json">{"IsPagePersonalizationTarget":false,"IsUrlPersonalizationTarget":false,"PageId":"4fc55e55-af6a-421d-826d-1fc18c4844cf"}</script><script src="/WebResource.axd?d=NjxTqR2bqTw1rewxxlkHPik6lPEthRQCIJ2jks8YIp_G-z_8FGpCq1ixL_85xq32Gh7gJfueLzqQ-retW-NWvvXLrsIdqC8NK8JHjTljYWN5PIaUf6nZemYzwODfyQqrOtMPJDhznHtntX0MYyup9mrDvQuA6W6lxD-ePmPMt8ndMFPVcrMxLnK5mRLqME91Gh-i6FhsJPFyY_lzP_nYc4rpJ5w1&amp;t=638701960560000000" type="text/javascript"></script><script id="sf-insight-settings" type="application/json">{"apiServerUrl":"https://api.insight.sitefinity.com","apiKey":"384de3c4-61bb-cea2-67f3-385411a61d8d","applicationName":"Website","trackingCookieDomain":"","keepDecTrackingCookieOnTrackingConsentRejection":false,"slidingExpirationForTrackingCookie":false,"maxAgeForTrackingCookieInDays":365,"trackYouTubeVideos":true,"crossDomainTrackingEntries":["pro.jread.cloud.sitefinity.com/manufacturing","localhost:5001/banking","pro.jread.cloud.sitefinity.com","pro.jread.cloud.sitefinity.com/franchise-portal"],"strategy":"Persist|False","docsHrefTestExpressions":[".*\\/docs\\/.+\\.{1}.+((\\?|\\\u0026)sfvrsn=.+){1}$",".+((\\?|\\\u0026)sf_dm_key=.+){1}$"],"sessionLengthInMinutes":30,"trackVimeoVideos":true,"useSecureCookies":true}</script><script id="sf-insight-metadata" type="application/json">{"contentMetadata":"{\"Id\":\"4fc55e55-af6a-421d-826d-1fc18c4844cf\",\"ContentType\":\"Page\",\"Title\":\"Home\",\"CanonicalTitle\":\"Home\",\"CanonicalUrl\":\"https://pro.jread.cloud.sitefinity.com\",\"Language\":\"en\",\"CreatedOn\":\"2023-09-13T10:59:31.287Z\",\"ModifiedOn\":\"2024-11-20T13:32:10.007Z\",\"SiteId\":\"d51c79df-fa2c-4f49-84d8-f155ab0fccb5\",\"SiteName\":\"Corporate\",\"PageId\":\"4fc55e55-af6a-421d-826d-1fc18c4844cf\"}","videosMetadata":"[]"}</script><script src="/WebResource.axd?d=HtQyXelCu6mzSPcVcvK_BoqDfWTt5GvDtQ8bJhtK41Z3BwynboLlfPrKZAwZ7Ty6q_q25wuJiJVn-vtpb3YC0iTSU8JxJb7QWkVRTzWgleKtOQ4nPSzxXQjNkp8arx3xSkNstj1nU598mmZBTKTamC6i_d6FS3h9Cp72CJdDdazoXR1cYYaGJcVYY8nAxAj6-3uTFKKON2mGMlFFbEWSsB0EviQ1&amp;t=638701960060000000" type="text/javascript"></script><script async="async" crossorigin="" src="https://cdn.insight.sitefinity.com/sdk/sitefinity-insight-client.min.3.1.41.js" type="text/javascript"></script><script id="lazyArgs" type="application/json">{"SfUrl":"/api/default/","PageId":"4fc55e55-af6a-421d-826d-1fc18c4844cf","SiteId":"d51c79df-fa2c-4f49-84d8-f155ab0fccb5","Culture":"en","ResourcePackageName":null}</script><script src="/sfrenderer/scripts/lazy-components.min.js"></script><script id="-583667616" src="/sfrenderer/Scripts/SearchWidgets/search-box.min.js?assembly_name=Progress.Sitefinity.AspNetCore.Widgets&amp;version=1889898296" type="text/javascript"></script><script defer="" id="-1258257803" src="/sfrenderer/Scripts/form-all.min.js?assembly_name=Progress.Sitefinity.AspNetCore.FormWidgets&amp;version=2070868792" type="text/javascript"></script>
+
+<div id="st-2" class=" st-sticky-share-buttons st-left st-toggleable st-has-labels "><div class="st-btn st-first" data-network="twitter" style="display: inline-block;">
+  <img alt="twitter sharing button" src="https://platform-cdn.sharethis.com/img/twitter.svg">
+  <span class="st-label">Tweet</span>
+</div><div class="st-btn" data-network="email" style="display: inline-block;">
+  <img alt="email sharing button" src="https://platform-cdn.sharethis.com/img/email.svg">
+  <span class="st-label">Email</span>
+</div><div class="st-btn" data-network="facebook" style="display: inline-block;">
+  <img alt="facebook sharing button" src="https://platform-cdn.sharethis.com/img/facebook.svg">
+  <span class="st-label">Share</span>
+</div><div class="st-btn" data-network="linkedin" style="display: inline-block;">
+  <img alt="linkedin sharing button" src="https://platform-cdn.sharethis.com/img/linkedin.svg">
+  <span class="st-label">Share</span>
+</div><div class="st-btn" data-network="messenger" style="display: inline-block;">
+  <img alt="messenger sharing button" src="https://platform-cdn.sharethis.com/img/messenger.svg">
+  <span class="st-label">Share</span>
+</div><div class="st-btn" data-network="copy" style="display: inline-block;">
+  <img alt="copy sharing button" src="https://platform-cdn.sharethis.com/img/copy.svg">
+  <span class="st-label">Share</span>
+</div><div class="st-btn" data-network="pinterest" style="display: inline-block;">
+  <img alt="pinterest sharing button" src="https://platform-cdn.sharethis.com/img/pinterest.svg">
+  <span class="st-label">Pin</span>
+</div><div class="st-btn st-last" data-network="print" style="display: inline-block;">
+  <img alt="print sharing button" src="https://platform-cdn.sharethis.com/img/print.svg">
+  <span class="st-label">Print</span>
+</div><div class="st-toggle">
+  <div class="st-left">
+    <img alt="arrow_left sharing button" src="https://platform-cdn.sharethis.com/img/arrow_left.svg">
+  </div>
+  <div class="st-right">
+    <img alt="arrow_right sharing button" src="https://platform-cdn.sharethis.com/img/arrow_right.svg">
+  </div>
+</div></div></body></html>
